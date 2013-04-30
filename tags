@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ADD	H:\C\compilers\symbolDefine.h	35;"	d
+ARROW	H:\C\compilers\symbolDefine.h	58;"	d
+BUFFER	H:\C\compilers\lexical.h	/^typedef char BUFFER[bufSize];$/;"	t
+CHAR	H:\C\compilers\symbolDefine.h	8;"	d
+CHARACTER	H:\C\compilers\symbolDefine.h	28;"	d
+COLOR	H:\C\compilers\symbolDefine.h	30;"	d
+COMMA	H:\C\compilers\symbolDefine.h	55;"	d
+CSTRING	H:\C\compilers\symbolDefine.h	29;"	d
+DECIMAL	H:\C\compilers\symbolDefine.h	27;"	d
+DOT	H:\C\compilers\symbolDefine.h	56;"	d
+ELSE	H:\C\compilers\symbolDefine.h	19;"	d
+END	H:\C\compilers\lexical.h	23;"	d
+ENTER	H:\C\compilers\symbolDefine.h	64;"	d
+EQUAL	H:\C\compilers\symbolDefine.h	47;"	d
+EXCLAMATORY	H:\C\compilers\symbolDefine.h	59;"	d
+Err	H:\C\compilers\public.h	/^typedef struct Err{$/;"	s
+Err	H:\C\compilers\public.h	/^}Err;$/;"	t
+FILEEND	H:\C\compilers\symbolDefine.h	67;"	d
+FLOAT	H:\C\compilers\symbolDefine.h	9;"	d
+FOR	H:\C\compilers\symbolDefine.h	17;"	d
+FREEMEN	H:\C\compilers\symbolDefine.h	11;"	d
+FUNCTION	H:\C\compilers\symbolDefine.h	22;"	d
+GREATER	H:\C\compilers\symbolDefine.h	44;"	d
+GREATEREQ	H:\C\compilers\symbolDefine.h	45;"	d
+HEAP	H:\C\compilers\symbolDefine.h	13;"	d
+HEX	H:\C\compilers\symbolDefine.h	31;"	d
+ID	H:\C\compilers\symbolDefine.h	25;"	d
+IF	H:\C\compilers\symbolDefine.h	18;"	d
+INT	H:\C\compilers\symbolDefine.h	7;"	d
+INTEGER	H:\C\compilers\symbolDefine.h	26;"	d
+ISDIGIT	H:\C\compilers\symbolDefine.h	75;"	d
+ISEMPTY	H:\C\compilers\symbolDefine.h	79;"	d
+ISHEX	H:\C\compilers\symbolDefine.h	80;"	d
+ISLETTER	H:\C\compilers\symbolDefine.h	72;"	d
+ISLOWER	H:\C\compilers\symbolDefine.h	71;"	d
+ISNEMPTY	H:\C\compilers\symbolDefine.h	78;"	d
+ISNZERO	H:\C\compilers\symbolDefine.h	73;"	d
+ISUNDERLINE	H:\C\compilers\symbolDefine.h	76;"	d
+ISUPPER	H:\C\compilers\symbolDefine.h	70;"	d
+ISWORD	H:\C\compilers\symbolDefine.h	77;"	d
+ISZERO	H:\C\compilers\symbolDefine.h	74;"	d
+LPARENTHESES	H:\C\compilers\symbolDefine.h	51;"	d
+MINUS	H:\C\compilers\symbolDefine.h	36;"	d
+MULTIPLY	H:\C\compilers\symbolDefine.h	37;"	d
+NRbuf	H:\C\compilers\lexical.h	9;"	d
+RPARENTHESES	H:\C\compilers\symbolDefine.h	52;"	d
+SELFADD	H:\C\compilers\symbolDefine.h	41;"	d
+SELFMINUS	H:\C\compilers\symbolDefine.h	42;"	d
+SEMICOLON	H:\C\compilers\symbolDefine.h	57;"	d
+SPACE	H:\C\compilers\symbolDefine.h	62;"	d
+STACK	H:\C\compilers\symbolDefine.h	12;"	d
+STRING	H:\C\compilers\symbolDefine.h	10;"	d
+STRUCT	H:\C\compilers\symbolDefine.h	21;"	d
+SymbolItem	H:\C\compilers\symbolTable.h	/^struct SymbolItem{$/;"	s
+SymbolItem	H:\C\compilers\symbolTable.h	/^typedef struct SymbolItem SymbolItem;$/;"	t
+SymbolTable	H:\C\compilers\symbolTable.h	/^typedef struct SymbolTable{$/;"	s
+SymbolTable	H:\C\compilers\symbolTable.h	/^}SymbolTable;$/;"	t
+TAB	H:\C\compilers\symbolDefine.h	63;"	d
+THEN	H:\C\compilers\symbolDefine.h	20;"	d
+TREE	H:\C\compilers\symbolDefine.h	14;"	d
+Token	H:\C\compilers\public.h	/^typedef struct Token{$/;"	s
+Token	H:\C\compilers\public.h	/^}Token;$/;"	t
+VOLUATION	H:\C\compilers\symbolDefine.h	39;"	d
+WHILE	H:\C\compilers\symbolDefine.h	16;"	d
+_LEXICAL_H	H:\C\compilers\lexical.h	2;"	d
+_PUBLIX_H	H:\C\compilers\public.h	2;"	d
+_SYMBOLDEFINE_H	H:\C\compilers\symbolDefine.h	2;"	d
+_SYMBOLTABLE	H:\C\compilers\symbolTable.h	2;"	d
+add2SymbolT	H:\C\compilers\symbolTable.c	/^int add2SymbolT(Token *token, LENGTHTODO){$/;"	f
+addToWord	H:\C\compilers\lexical.c	/^int addToWord(char ch, char** word, int* wordSize, int length){$/;"	f
+addToken	H:\C\compilers\lexical.c	/^int addToken(Token* token, int kind){$/;"	f
+addTokenValue	H:\C\compilers\token.c	/^int addTokenValue(Token *token, int kind, char* word, int length){$/;"	f
+bool	H:\C\compilers\public.h	10;"	d
+bufLast	H:\C\compilers\lexical.h	10;"	d
+bufSize	H:\C\compilers\lexical.h	7;"	d
+buffers	H:\C\compilers\lexical.h	/^BUFFER buffers[2];$/;"	v
+bufp	H:\C\compilers\lexical.h	/^int bufp;$/;"	v
+ch	H:\C\compilers\lexical.h	/^	char ch;$/;"	v
+defaultFile	H:\C\compilers\main.c	/^const char* defaultFile = "pig.freemen";$/;"	v
+eLine	H:\C\compilers\public.h	/^	int eLine;$/;"	m	struct:Err
+elog	H:\C\compilers\errorHandle.c	/^FILE *elog;$/;"	v
+errFinish	H:\C\compilers\errorHandle.c	/^void errFinish(){$/;"	f
+errNum	H:\C\compilers\public.h	/^	int errNum;$/;"	m	struct:Err
+error	H:\C\compilers\public.h	/^Err error;$/;"	v
+errorInit	H:\C\compilers\errorHandle.c	/^void errorInit(){$/;"	f
+false	H:\C\compilers\public.h	12;"	d
+file	H:\C\compilers\lexical.h	/^FILE *file;$/;"	v
+firstBuf	H:\C\compilers\lexical.h	17;"	d
+getAWord	H:\C\compilers\lexical.c	/^int getAWord(Token* token){$/;"	f
+getNextWord	H:\C\compilers\lexical.c	/^int getNextWord(Token* token){$/;"	f
+initLexical	H:\C\compilers\lexical.c	/^bool initLexical(char* fileName){$/;"	f
+initSymbolT	H:\C\compilers\symbolTable.c	/^void initSymbolT(){$/;"	f
+itemList	H:\C\compilers\symbolTable.h	/^SymbolItem* itemList;$/;"	v
+iwantpause	H:\C\compilers\public.h	15;"	d
+jumpOverError	H:\C\compilers\lexical.c	/^int jumpOverError(){$/;"	f
+kind	H:\C\compilers\public.h	/^	int kind;	$/;"	m	struct:Token
+length	H:\C\compilers\lexical.h	/^	int length;$/;"	v
+logE	H:\C\compilers\errorHandle.c	/^void logE(const char* info, ...){$/;"	f
+logIt	H:\C\compilers\errorHandle.c	/^void logIt(const char* info, ...){$/;"	f
+logText	H:\C\compilers\public.h	/^char logText[128];$/;"	v
+logable	H:\C\compilers\errorHandle.c	/^bool logable;$/;"	v
+lt	H:\C\compilers\errorHandle.c	/^struct tm *lt;$/;"	v
+main	H:\C\compilers\main.c	/^int main(int argc, char *argv[]){$/;"	f
+mtime	H:\C\compilers\errorHandle.c	/^char mtime[65] = {0};$/;"	v
+myTime	H:\C\compilers\errorHandle.c	/^char *myTime(){$/;"	f
+name	H:\C\compilers\symbolTable.h	/^	int name;$/;"	m	struct:SymbolItem
+null	H:\C\compilers\public.h	13;"	d
+num	H:\C\compilers\symbolTable.h	/^	int num;$/;"	m	struct:SymbolTable
+pItem	H:\C\compilers\symbolTable.h	/^int pItem;$/;"	v
+printErrorInfo	H:\C\compilers\errorHandle.c	/^void printErrorInfo(const char* info){$/;"	f
+readInBuffer	H:\C\compilers\lexical.c	/^bool readInBuffer(){$/;"	f
+readNextLetter	H:\C\compilers\lexical.c	/^void readNextLetter(char* ch){$/;"	f
+sTable	H:\C\compilers\symbolTable.c	/^SymbolTable sTable;$/;"	v
+saveAndNext	H:\C\compilers\lexical.c	/^int saveAndNext(){$/;"	f
+saveIt	H:\C\compilers\lexical.c	/^int saveIt(){$/;"	f
+secondBuf	H:\C\compilers\lexical.h	18;"	d
+t	H:\C\compilers\errorHandle.c	/^time_t t;$/;"	v
+tableSize	H:\C\compilers\symbolTable.h	/^int tableSize;$/;"	v
+true	H:\C\compilers\public.h	11;"	d
+value	H:\C\compilers\public.h	/^	void* value;\/\/ $/;"	m	struct:Token
+value	H:\C\compilers\symbolTable.h	/^	char* value;$/;"	m	struct:SymbolItem
+whichBuffer	H:\C\compilers\lexical.h	/^int whichBuffer;$/;"	v
+word	H:\C\compilers\lexical.h	/^	char* word;$/;"	v
+wordSize	H:\C\compilers\lexical.h	/^	int wordSize;$/;"	v
