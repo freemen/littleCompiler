@@ -25,4 +25,8 @@ SymbolItem* itemList;
 int iNum;
 void oneMoreSymbol();
 
+SymbolItem keyWord[] = 
+{
+	{},{},{},{},{},{},{},{}
+}
 #endif

@@ -5,6 +5,7 @@ SymbolTable sTable;
 void initSymbolT(){
 	tableSize = 128;
 	itemList = (SymbolItem*)malloc(tableSize*(sizeof(SymbolItem)));
+	memcpy(itemList, keyWord, sizeof(keyWord));
 	iNum = 0;
 }
 
