@@ -21,6 +21,8 @@ typedef struct SymbolTable{
 
 int tableSize;
 SymbolItem* itemList;
-int pItem;
+
+int iNum;
+void oneMoreSymbol();
 
 #endif

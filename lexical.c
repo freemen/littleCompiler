@@ -65,7 +65,7 @@ int getAWord(Token* token){
 			}while(ISWORD(ch));//read a word over
 			//TODO: add to token
 				addToken(token, ID);
-				add2SymbolT(token);	
+				add2SymbolT(token, length);	
 			//bufp--;
 		}else if (ISNZERO(ch)){
 			do{
@@ -221,8 +221,6 @@ int addToWord(char ch, char** word, int* wordSize, int length){
 		int i = length;
 		for (i; i<(*wordSize); i++)	(*word)[i] = '\0';
 		memcpy(*word, tem, strlen(tem));
-		
-		//TODOLASTHERE
 	}
 	//printf("length: %d, ch: %c", length, ch);
 	(*word)[length-1] = ch;
