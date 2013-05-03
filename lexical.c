@@ -8,7 +8,7 @@ bool initLexical(char* fileName){
 	firstBuf[bufLast] = END;
 	secondBuf[bufLast] = END;
 	if ((file = fopen(fileName, "r")) == null){
-		logE("can't read");//TODO: print error
+		logE("lexical: can't read");//TODO: print error
 		return false;
 	}else{
 		fseek(file, SEEK_SET, 0);
@@ -16,7 +16,7 @@ bool initLexical(char* fileName){
 		readInBuffer();
 	
 	}
-	logIt("lexical initial finished");
+	logIt("lexical: initial finished");
 	return true;
 }
 

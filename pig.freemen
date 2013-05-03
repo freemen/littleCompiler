@@ -1,2 +1,3 @@
-hello, I am a pig!
-2+1 ; 3--;
+int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;

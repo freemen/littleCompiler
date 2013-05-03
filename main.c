@@ -6,7 +6,7 @@ const char* defaultFile = "pig.freemen";
 int main(int argc, char *argv[]){
 	//initial
 	bool success = true;
-	
+	initSymbolT();
 	errorInit();
 	if (argc < 2)
 		success = initLexical(defaultFile);

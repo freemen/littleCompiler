@@ -8,6 +8,7 @@ Project Tagfile=H:\C\compilers\tags
 Project Wordfile=
 Filter=
 Create Tagfile=1
+Def Out Path=D:\C\some
 [Tools]
 Tool Cmd0="compiler"
 Tool Dir0="%p"

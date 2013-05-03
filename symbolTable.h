@@ -7,9 +7,8 @@ typedef struct SymbolItem SymbolItem;
 struct SymbolItem{
 	//TODO:to be motify
 //	void* value;
-	char* value;
 	int name;
-	//int pig;
+	char* value;
 };
 
 typedef struct SymbolTable{
@@ -19,14 +18,15 @@ typedef struct SymbolTable{
 	
 }SymbolTable;
 
-int tableSize;
-SymbolItem* itemList;
+int tableSize;			//mark down how big is this symbolList
+SymbolItem* itemList;		//temporarily be the storage construct of the symbolTable
 
-int iNum;
-void oneMoreSymbol();
+int iNum;						//the amount of the item now
+void oneMoreSymbol();	//iNum++
 
 SymbolItem keyWord[] = 
 {
-	{},{},{},{},{},{},{},{}
-}
+	{INT,"int"},{CHAR,"char"},{FLOAT,"float"},{STRING, "string"},
+	{WHILE,"while"},{FOR,"for"},{IF,"if"},{ELSE,"else"}
+};
 #endif

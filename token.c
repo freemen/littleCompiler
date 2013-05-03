@@ -6,11 +6,10 @@ int addTokenValue(Token *token, int kind, char* word, int length){
 			//TODO: and should be add to symbolTable??
 			//TODO: so 下面的是乱写的
 			token->kind = kind;
-			printf("length:%d", length);
 //			token->value = (char*)malloc((length+1)*sizeof(char));
 			token->value = (char*)realloc(token->value,(length+1)*sizeof(char));
 			if (!token->value) printf("\nbad!!\n");
 			//and copy the new one to the value
 			memcpy((char*)token->value, word, length+1);
-			logIt("token<%d, %s>", token->kind, (char*)token->value);
+			logIt("Token: token<%d, %s>", token->kind, (char*)token->value);
 }
