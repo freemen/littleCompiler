@@ -46,5 +46,8 @@ int add2SymbolT(Token *token, int length);
 bool initLexical(char* fileName);
 int getNextWord(Token* token);
 
+//in grammar
+void initGrammar();
+void grammarProcess();
 
 #endif

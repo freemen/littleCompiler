@@ -172,16 +172,16 @@ bool readInBuffer(){
 	count = fread(buffers[whichBuffer], sizeof(char), NRbuf, file);
 	
 	if (count <0){
-		logE("source code can't be readed");//TODO: these error should be handled by the errorHandle.c
+		logE("lexi: source code can't be readed");//TODO: these error should be handled by the errorHandle.c
 		return false;
 	}else if (count < NRbuf){//end
 		buffers[whichBuffer][count] = END;
 		buffers[whichBuffer][count+1] = '\0';
-		logIt("readed %d in buffer\nlast several words: %s", count, buffers[whichBuffer]);
+		logIt("lexi: readed %d in buffer\nlast several words: %s", count, buffers[whichBuffer]);
 		//TODO::read successfully and over
 		fclose(file);	
 	}else{//count == NRbuf
-		logIt("readed %d in buffer: %s", count, buffers[whichBuffer]);
+		logIt("lexi: readed %d in buffer: %s", count, buffers[whichBuffer]);
 		//TODO:when read succefully and can keep on reading next
 		whichBuffer = 1- whichBuffer;// change 1 to 0 and 0 to 1
 	}
@@ -196,11 +196,11 @@ void readNextLetter(char* ch){
 	}
 	*ch = buffers[whichBuffer][bufp];
 	if(*ch == ' ')
-		logIt("a blank!");
+		logIt("lexi: a blank!");
 	else if(*ch == '\t') 
-		logIt("a tab!");
+		logIt("lexi: a tab!");
 	else if (*ch == '\n'){
-		logIt("begin a new line!");
+		logIt("lexi: begin a new line!");
 		error.eLine ++;
 	}else{
 		//logIt("i read %dth letter %c", bufp, *ch);
@@ -215,9 +215,9 @@ int addToWord(char ch, char** word, int* wordSize, int length){
 		char *tem = (*word);
 		*word = (char*)realloc((*word), ((*wordSize)*sizeof(char)));
 		if (*word)
-			logIt("the word's memory Reallocated in %#x",*word);
+			logIt("lexi: the word's memory Reallocated in %#x",*word);
 		else
-			logE("Not Enough Memory for word!");
+			logE("lexi: Not Enough Memory for word!");
 		int i = length;
 		for (i; i<(*wordSize); i++)	(*word)[i] = '\0';
 		memcpy(*word, tem, strlen(tem));

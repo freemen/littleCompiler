@@ -5,6 +5,7 @@ SymbolTable sTable;
 void initSymbolT(){
 	tableSize = 128;
 	itemList = (SymbolItem*)malloc(tableSize*(sizeof(SymbolItem)));
+	
 	iNum = sizeof(keyWord) >> 3;			//the sizeof(symbolItem) is 8
 	memcpy(itemList, keyWord, sizeof(keyWord));
 	int i=iNum;
@@ -48,14 +49,14 @@ void oneMoreSymbol(){
 		SymbolItem* tem = itemList;
 		itemList = (SymbolItem*)realloc(itemList, sizeof(SymbolItem)*(tableSize<<1));
 		if(itemList){
-			logIt("the symbolList is reallocated");
+			logIt("symT: the symbolList is reallocated");
 			int i = tableSize;
 			memcpy(itemList, tem, tableSize);
 			tableSize = tableSize<<1;			
 			for(;i< tableSize;i++)
 				itemList[i].value = "\0";
 		}else{
-			logE("Not enough memory of symbolList!");
+			logE("symT: Not enough memory of symbolList!");
 			return;
 		}
 	}

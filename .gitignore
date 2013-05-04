@@ -166,3 +166,8 @@ pip-log.txt
 #pure c
 ############
 .o
+
+############
+#freemen's log
+############
+e.log
