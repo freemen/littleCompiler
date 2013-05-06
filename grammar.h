@@ -8,9 +8,10 @@ int next;					//point to the next element to push in stack
 
 int state;				//the current state
 
+#define acc 0
 //the table is describe [elements to states]
 //...
-#define acc 0
+int gotoTable[10][10] = {};
 int check(int next, int state);		//check how the action should be done from the state facing to this element,Shift out or Reduced\
 
 
@@ -20,7 +21,7 @@ struct{
 	int rightNum;
 } productionList[128];
 
-//all kinds of stack
+//all kinds of stackTODO:not be the stack of int
 int stack[256];
 int top;
 int push(int);

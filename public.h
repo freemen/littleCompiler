@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "symbolDefine.h"
+#include "symbolTable.h"
 
 //basic define
 #define bool char
@@ -15,6 +16,10 @@
 #define iwantpause system("pause>nul")
 
 char logText[128];
+
+//////TOOLS
+//stack
+
 
 //handle when error occur
 typedef struct Err{
