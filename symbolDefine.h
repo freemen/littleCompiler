@@ -1,9 +1,51 @@
 #ifndef _SYMBOLDEFINE_H
 #define _SYMBOLDEFINE_H
 //define the kind code
+#define FENHAO 1
+#define LPAR 2
+#define RPAR 3
+#define LB 4
+#define RB 5
+#define INT 6
+#define CHAR 7
+#define FLOAT 8
+#define RID 9
+#define MUL 10
+#define COMMA 11
+#define LAB 12
+#define RAB 13
+#define INTEGER 14
+#define DECIMAL 15
+#define HEX 16
+#define SELFADD 17
+#define ADD 18
+#define SELFMINUS 19
+#define MINUS 20
+#define ARROW 21
+#define FILEEND 22
 
+#define START 23
+#define VDEF 24
+#define TYPE 25
+#define ID 26
+#define IDS 27
+#define VFENHAO 28
+#define MLPAR 29
+#define MRPAR 30
+#define MLB 31
+#define BLOCK 32
+#define MRB 33
+#define PS 34
+#define PID 35
+#define MCOMMA 36
+#define MRAB 37
+#define PSM 38
+#define PSN 39
+
+//end
+//#define FILEEND 404
 //key word
-	//type
+/*	//type
 #define INT 1
 #define CHAR 2
 #define FLOAT 3
@@ -48,8 +90,8 @@
 	//delimiter
 		//These are Parentheses, Square brackets, Angle brackets and Brace.	
 		//¿®∫≈”––°¿®∫≈°¢÷–¿®∫≈°¢Ω«¿®∫≈∫Õ¥Û¿®∫≈°£
-#define LPARENTHESES 80	//(
-#define RPARENTHESES 81	//)
+#define LPAR 80	//(
+#define RPARS 81	//)
 
 //segmentation
 #define COMMA 90	//,
@@ -61,10 +103,8 @@
 //blank
 #define SPACE 110	//0x20 ' '
 #define TAB 111	// '\t'
-#define ENTER 112 // '\n'
+#define ENTER 112 // '\n'*/
 
-//end
-#define FILEEND 404
 
 
 #define ISUPPER(x) (x<=0x5A && x>=0x41)

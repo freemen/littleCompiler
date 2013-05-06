@@ -25,6 +25,7 @@ int getNextWord(Token* token){
 	int length = getAWord(token);
 	//TODO: find the place in the SymbleTable
 	//TODO: mainly match the Id and the forbiden symble in the SymbleTable
+	
 	return length;	
 }
 	
@@ -64,7 +65,7 @@ int getAWord(Token* token){
 					saveAndNext();
 			}while(ISWORD(ch));//read a word over
 			//TODO: add to token
-				addToken(token, ID);
+				addToken(token, RID);
 //				add2SymbolT(token, length);	
 				checkAtKeyWordT(token);
 			//bufp--;
@@ -135,13 +136,17 @@ int getAWord(Token* token){
 					}
 					addToken(token, MINUS);
 					break;
+				case '*':
+					saveIt();
+					addToken(token, MUL);
+					break;
 				case ';':
 					saveIt();
-					addToken(token, SEMICOLON); 
+					addToken(token, FENHAO); 
 					break;
 				case '(':
 					saveIt();
-					addToken(token, LPARENTHESES); 
+					addToken(token, LPAR); 
 					break;
 				case END:
 					token->kind = FILEEND;

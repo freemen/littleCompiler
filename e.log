@@ -222,3 +222,278 @@ May,05th,2013, 07:59:34 --log: gram: End
 May,05th,2013, 07:59:34 --log: gram: End
 May,05th,2013, 07:59:34 --log: gram: End
 May,05th,2013, 07:59:34 --log: gram: End
+May,06th,2013, 22:31:44 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,06th,2013, 22:31:44 --log: lexical: initial finished
+May,06th,2013, 22:31:44 --log: gram: initGrammar finished
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:1
+May,06th,2013, 22:31:44 --log: lexi: a blank!
+May,06th,2013, 22:31:44 --log: symT: find int in keyWordTable[0]!
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:1
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:2
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:3
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:4
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:4
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:5
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:6
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:7
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:7
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:8
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:9
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:10
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:10
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:11
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:12
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:13
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:13
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:14
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:15
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:16
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:16
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:17
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:18
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:19
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:19
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:20
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:21
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:22
+May,06th,2013, 22:31:44 --log: gram: check 0
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:22
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:23
+May,06th,2013, 22:31:44 --log: gram: check 4215239
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:24
+May,06th,2013, 22:31:44 --log: gram: stack:
+May,06th,2013, 22:31:44 --log:  total:25
+May,06th,2013, 22:43:06 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,06th,2013, 22:43:06 --log: lexical: initial finished
+May,06th,2013, 22:43:06 --log: gram: initGrammar finished
+May,06th,2013, 22:43:06 --log: gram: stack:
+May,06th,2013, 22:43:06 --log:  total:1
+May,06th,2013, 22:43:06 --log: lexi: a blank!
+May,06th,2013, 22:43:06 --log: symT: find int in keyWordTable[0]!
+May,06th,2013, 22:43:06 --log: gram: token<type:1, address:0x4051a4>
+May,06th,2013, 22:43:06 --log: gram: check 0
+May,06th,2013, 22:43:06 --e: error!
+May,06th,2013, 22:50:08 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,06th,2013, 22:50:08 --log: lexical: initial finished
+May,06th,2013, 22:50:08 --log: gram: initGrammar finished
+May,06th,2013, 22:50:08 --log: gram: stack:
+May,06th,2013, 22:50:08 --log:  total:1
+May,06th,2013, 22:50:08 --log: lexi: a blank!
+May,06th,2013, 22:50:08 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 22:50:08 --log: gram: token<type:6, address:0x4041a4>
+May,06th,2013, 22:50:08 --log: gram: check 4
+May,06th,2013, 22:50:08 --log: gram: stack:
+May,06th,2013, 22:50:08 --log:  total:2
+May,06th,2013, 22:50:08 --log: gram: stack:
+May,06th,2013, 22:50:08 --log:  total:3
+May,06th,2013, 22:50:08 --log: lexi: a blank!
+May,06th,2013, 22:50:08 --log: gram: token<type:9, address:0x791278>
+May,06th,2013, 22:50:08 --log: gram: check 0
+May,06th,2013, 22:50:08 --e: error!
+May,06th,2013, 22:52:22 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,06th,2013, 22:52:22 --log: lexical: initial finished
+May,06th,2013, 22:52:22 --log: gram: initGrammar finished
+May,06th,2013, 22:52:22 --log: gram: stack:
+May,06th,2013, 22:52:22 --log:  total:1
+May,06th,2013, 22:52:22 --log: lexi: a blank!
+May,06th,2013, 22:52:22 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 22:52:22 --log: gram: token<type:6, address:0x4041a4>
+May,06th,2013, 22:52:22 --log: gram: check 4
+May,06th,2013, 22:52:22 --log: gram: stack:
+May,06th,2013, 22:52:22 --log:  total:2
+May,06th,2013, 22:52:22 --log: gram: stack:
+May,06th,2013, 22:52:22 --log:  total:3
+May,06th,2013, 22:52:22 --log: lexi: a blank!
+May,06th,2013, 22:52:22 --log: lexi: begin a new line!
+May,06th,2013, 22:52:22 --e: I read a **a;
+May,06th,2013, 22:52:22 --e: gram: lexical error!
+May,06th,2013, 22:52:22 --log: lexi: begin a new line!
+May,06th,2013, 22:52:22 --log: lexi: a blank!
+May,06th,2013, 22:52:22 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 22:52:22 --log: gram: token<type:6, address:0x4041a4>
+May,06th,2013, 22:52:22 --log: gram: check 4
+May,06th,2013, 22:52:22 --log: gram: stack:
+May,06th,2013, 22:52:22 --log:  total:4
+May,06th,2013, 22:52:22 --log: gram: stack:
+May,06th,2013, 22:52:22 --log:  total:5
+May,06th,2013, 22:52:22 --log: lexi: a blank!
+May,06th,2013, 22:52:22 --log: gram: token<type:9, address:0x5412a0>
+May,06th,2013, 22:52:22 --log: gram: check 0
+May,06th,2013, 22:52:22 --e: error!
+May,06th,2013, 22:54:15 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,06th,2013, 22:54:15 --log: lexical: initial finished
+May,06th,2013, 22:54:15 --log: gram: initGrammar finished
+May,06th,2013, 22:54:15 --log: gram: stack:
+May,06th,2013, 22:54:15 --log:  total:1
+May,06th,2013, 22:54:15 --log: lexi: a blank!
+May,06th,2013, 22:54:15 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 22:54:15 --log: gram: token<type:6, address:0x404298>
+May,06th,2013, 22:54:15 --log: gram: check 4
+May,06th,2013, 22:54:15 --log: gram: stack:
+May,06th,2013, 22:54:15 --log:  total:2
+May,06th,2013, 22:54:15 --log: gram: stack:
+May,06th,2013, 22:54:15 --log:  total:3
+May,06th,2013, 22:54:15 --log: lexi: a blank!
+May,06th,2013, 22:54:15 --log: gram: token<type:9, address:0x551278>
+May,06th,2013, 22:54:15 --log: gram: check 0
+May,06th,2013, 22:54:15 --e: error!
+May,06th,2013, 22:54:38 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,06th,2013, 22:54:38 --log: lexical: initial finished
+May,06th,2013, 22:54:38 --log: gram: initGrammar finished
+May,06th,2013, 22:54:38 --log: gram: stack:
+May,06th,2013, 22:54:38 --log:  total:1
+May,06th,2013, 22:54:38 --log: lexi: a blank!
+May,06th,2013, 22:54:38 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 22:54:38 --log: gram: token<type:6, address:0x404298>
+May,06th,2013, 22:54:38 --log: gram: check 4
+May,06th,2013, 22:54:38 --log: gram: stack:
+May,06th,2013, 22:54:38 --log:  total:2
+May,06th,2013, 22:54:38 --log: gram: stack:
+May,06th,2013, 22:54:38 --log:  total:3
+May,06th,2013, 22:54:38 --log: lexi: a blank!
+May,06th,2013, 22:54:38 --log: gram: token<type:10, address:0x591290>
+May,06th,2013, 22:54:38 --log: gram: check 0
+May,06th,2013, 22:54:38 --e: error!
+May,06th,2013, 22:57:43 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,06th,2013, 22:57:43 --log: lexical: initial finished
+May,06th,2013, 22:57:43 --log: gram: initGrammar finished
+May,06th,2013, 22:57:43 --log: gram: stack:
+May,06th,2013, 22:57:43 --log:  total:1
+May,06th,2013, 22:57:43 --log: lexi: a blank!
+May,06th,2013, 22:57:43 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 22:57:43 --log: gram: token<type:6, address:0x404298>
+May,06th,2013, 22:57:43 --log: gram: check state:0,symbol:6 4
+May,06th,2013, 22:57:43 --log: gram: stack:
+May,06th,2013, 22:57:43 --log:  total:2
+May,06th,2013, 22:57:43 --log: gram: stack:
+May,06th,2013, 22:57:43 --log:  total:3
+May,06th,2013, 22:57:43 --log: lexi: a blank!
+May,06th,2013, 22:57:43 --log: gram: token<type:10, address:0x7f1290>
+May,06th,2013, 22:57:43 --log: gram: check state:0,symbol:10 0
+May,06th,2013, 22:57:43 --e: error!
+May,06th,2013, 23:02:15 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,06th,2013, 23:02:15 --log: lexical: initial finished
+May,06th,2013, 23:02:15 --log: gram: initGrammar finished
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:1
+May,06th,2013, 23:02:15 --log: lexi: a blank!
+May,06th,2013, 23:02:15 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 23:02:15 --log: gram: token<type:6, address:0x404298>
+May,06th,2013, 23:02:15 --log: gram: check state:0,symbol:6 4
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:2
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:3
+May,06th,2013, 23:02:15 --log: lexi: a blank!
+May,06th,2013, 23:02:15 --log: gram: token<type:10, address:0x871290>
+May,06th,2013, 23:02:15 --log: gram: check state:4,symbol:10 -3
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:3
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:4
+May,06th,2013, 23:02:15 --log: gram: check state:23,symbol:0 0
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:5
+May,06th,2013, 23:02:15 --log: gram: stack:
+May,06th,2013, 23:02:15 --log:  total:6
+May,06th,2013, 23:02:15 --log: gram: check state:0,symbol:10 0
+May,06th,2013, 23:02:15 --e: error!
+May,06th,2013, 23:12:43 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,06th,2013, 23:12:43 --log: lexical: initial finished
+May,06th,2013, 23:12:43 --log: gram: initGrammar finished
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:1
+May,06th,2013, 23:12:43 --log: lexi: a blank!
+May,06th,2013, 23:12:43 --log: symT: find int in keyWordTable[0]!type 6
+May,06th,2013, 23:12:43 --log: gram: token<type:6, address:0x404298>
+May,06th,2013, 23:12:43 --log: gram: check state:0,symbol:6 4
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:2
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:3
+May,06th,2013, 23:12:43 --log: lexi: a blank!
+May,06th,2013, 23:12:43 --log: gram: token<type:10, address:0x3c1290>
+May,06th,2013, 23:12:43 --log: gram: check state:4,symbol:10 -6
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:3
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:4
+May,06th,2013, 23:12:43 --log: gram: check state:23,symbol:0 0
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:5
+May,06th,2013, 23:12:43 --log: gram: stack:
+May,06th,2013, 23:12:43 --log:  total:6
+May,06th,2013, 23:12:43 --log: gram: check state:0,symbol:10 0
+May,06th,2013, 23:12:43 --e: error!

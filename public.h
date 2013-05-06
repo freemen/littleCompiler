@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "symbolDefine.h"
-#include "symbolTable.h"
+//#include "symbolTable.h"
 
 //basic define
 #define bool char

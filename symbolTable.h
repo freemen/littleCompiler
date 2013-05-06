@@ -30,7 +30,7 @@ typedef struct SymbolTable{
 	int fatherTable;							//调用它的father表在组里的编号
 	int childTable;							//下一个table在组里的编号
 }SymbolTable;
-int initSymbolTable(SymbolTable table, char* name);
+int initSymbolTable(SymbolTable* table, char* name);
 
 typedef struct STGroup{
 	SymbolTable *stTables;			//a group of symbol table
@@ -47,10 +47,11 @@ SymbolItem* itemList;		//temporarily be the storage construct of the symbolTable
 
 int iNum;						//the amount of the item now
 void oneMoreSymbol();	//iNum++
+void initKeyWordT();
 
 SymbolItem keyWord[] = 
 {
-	{INT,"int"},{CHAR,"char"},{FLOAT,"float"},{STRING, "string"},
-	{WHILE,"while"},{FOR,"for"},{IF,"if"},{ELSE,"else"}
+	{INT,"int"},{CHAR,"char"},{FLOAT,"float"}//,{STRING, "string"},
+//	{WHILE,"while"},{FOR,"for"},{IF,"if"},{ELSE,"else"}
 };
 #endif

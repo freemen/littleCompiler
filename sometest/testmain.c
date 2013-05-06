@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "hello.h"
+//#include "hello.h"
 
 main(){
-	hello(4);
-	hello(shit);
+
+//	hello(xz=>122,zxcv"dd");
+dod(1,2);
 }

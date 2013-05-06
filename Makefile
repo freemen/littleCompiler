@@ -1,4 +1,4 @@
-objects = main.o lexical.o symbolTable.o errorHandle.o token.o grammar.o stack.o reduce.o
+objects = main.o lexical.o symbolTable.o errorHandle.o token.o grammar.o reduce.o
 
 compiler: $(objects)
 	cc -o compiler $(objects)
