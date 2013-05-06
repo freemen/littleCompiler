@@ -135,3 +135,90 @@ May,03th,2013, 19:51:34 --log: lexi: a blank!
 May,03th,2013, 19:51:34 --log: lexi: a blank!
 May,03th,2013, 19:51:34 --log: symT: add a I in symbolList[9]
 May,03th,2013, 19:51:34 --log: gram: token<type:30, address:0x2f11f0>
+May,05th,2013, 07:56:20 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,05th,2013, 07:56:20 --log: lexical: initial finished
+May,05th,2013, 07:56:20 --log: gram: initGrammar finished
+May,05th,2013, 07:56:20 --log: lexi: a blank!
+May,05th,2013, 07:56:20 --log: symT: find int in symbolList[0]!
+May,05th,2013, 07:58:36 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,05th,2013, 07:58:36 --log: lexical: initial finished
+May,05th,2013, 07:58:36 --log: gram: initGrammar finished
+May,05th,2013, 07:58:36 --log: lexi: a blank!
+May,05th,2013, 07:58:36 --log: symT: find int in symbolList[0]!
+May,05th,2013, 07:59:34 --log: lexi: readed 57 in buffer
+last several words: int hello, I am a pig!
+string ddd;
+float 2+1 ; float3--;
+ÿ
+May,05th,2013, 07:59:34 --log: lexical: initial finished
+May,05th,2013, 07:59:34 --log: gram: initGrammar finished
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: find int in symbolList[0]!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a hello in symbolList[8]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f1420>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --e: I read a ,
+May,05th,2013, 07:59:34 --e: gram: lexical error!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a I in symbolList[9]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f1440>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a am in symbolList[10]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f1460>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a a in symbolList[11]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f1480>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a pig in symbolList[12]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f14a0>
+May,05th,2013, 07:59:34 --log: lexi: begin a new line!
+May,05th,2013, 07:59:34 --e: I read a !
+May,05th,2013, 07:59:34 --e: gram: lexical error!
+May,05th,2013, 07:59:34 --log: lexi: begin a new line!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: find string in symbolList[3]!
+May,05th,2013, 07:59:34 --log: gram: token<type:4, address:0x4041b3>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a ddd in symbolList[13]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f14d0>
+May,05th,2013, 07:59:34 --log: gram: token<type:92, address:0x2f3820>
+May,05th,2013, 07:59:34 --log: lexi: begin a new line!
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: find float in symbolList[2]!
+May,05th,2013, 07:59:34 --log: gram: token<type:3, address:0x4041ad>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: gram: token<type:31, address:0x2f3850>
+May,05th,2013, 07:59:34 --log: gram: token<type:45, address:0x2f3860>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: gram: token<type:31, address:0x2f3870>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: gram: token<type:92, address:0x2f3880>
+May,05th,2013, 07:59:34 --log: lexi: a blank!
+May,05th,2013, 07:59:34 --log: symT: add a float3 in symbolList[14]
+May,05th,2013, 07:59:34 --log: gram: token<type:30, address:0x2f3890>
+May,05th,2013, 07:59:34 --log: gram: token<type:53, address:0x2f38b0>
+May,05th,2013, 07:59:34 --log: gram: token<type:92, address:0x2f38c0>
+May,05th,2013, 07:59:34 --log: lexi: begin a new line!
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End
+May,05th,2013, 07:59:34 --log: gram: End

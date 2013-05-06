@@ -41,6 +41,7 @@ int addTokenValue(Token *token, int kind, char* word, int length);
 //Add to the Symbol Table
 void initSymbolT();
 int add2SymbolT(Token *token, int length);
+int checkAtKeyWordT(Token *token);
 
 //in lexical (class)
 bool initLexical(char* fileName);

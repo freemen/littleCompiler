@@ -1,8 +1,13 @@
 #include "symbolTable.h"
 
 SymbolTable sTable;
-
-void initSymbolT(){
+void	initSymbolT(){
+	initKeyWordT();
+	initSTGroup();
+}
+	
+	
+void initKeyWordT(){				//it's a keyword table in fact
 	tableSize = 128;
 	itemList = (SymbolItem*)malloc(tableSize*(sizeof(SymbolItem)));
 	
@@ -13,6 +18,8 @@ void initSymbolT(){
 		itemList[i].value = "\0";
 	logIt("symbolTable: initial %d symbol",iNum);
 }
+
+
 /*
 *input: token: is the one which just be recognised
 *					token->value is the word with '\0' in the end
@@ -20,7 +27,10 @@ void initSymbolT(){
 *output: the index of this token in SymbolTable
 */
 int add2SymbolT(Token *token, int length){
+}
+int checkAtKeyWordT(Token *token){
 	//TODO:现在是塞进去一个个匹配，以后等符号表变了之后，再要改算法
+	//好吧，现在发现这只能当个关键字表
 	int i=0;
 	SymbolItem it;
 	for (i; i<iNum; i++){
@@ -28,17 +38,17 @@ int add2SymbolT(Token *token, int length){
 		if (! strcmp((char*)token->value, it.value)){
 			token->kind = it.name;
 			token->value = it.value;
-			logIt("symT: find %s in symbolList[%d]!",(char*)token->value,i);
+			logIt("symT: find %s in keyWordTable[%d]!",(char*)token->value,i);
 			return i;					//如果找到了，就使用符号表的这一个
 		}
 	}
-	it = itemList[iNum];
+/*	it = itemList[iNum];
 	it.name = token->kind;
 	it.value = (char*)malloc(sizeof(char)*(length+1));
 	memcpy(it.value, token->value, (strlen(token->value)+1));
 	logIt("symT: add a %s in symbolList[%d]",it.value,i);
 	oneMoreSymbol();
-	return i;							//找不到就新建
+	return i;							//找不到就新建*/
 }
 /*
 *		let the item number in Symbol table increace
@@ -60,4 +70,22 @@ void oneMoreSymbol(){
 			return;
 		}
 	}
+}
+//-00-0-0-0-0-0-0-0-0-0-0--0---
+//real symbol table is here!
+
+int initSymbolTable(SymbolTable* table, char* name){
+		table->name = name;
+		table->length  = 0;
+		table->size = ORIGINALSTSIZE;
+		table->stItems = (*SymbolTableItem)malloc(table->size*(sizeof(SymbolTableItem)));
+}
+
+int initSTGroup(){
+	stGroup.length = 1;
+	stGroup.size = 8;
+	stGroup.stTables = (*STGroup)malloc(stGroup.size*(sizeof(STGroup)));
+	initSymbolTable(&stGroup.stTables[0], "all");
+	stGroup.newTable = -1;
+	stGroup.nowTable = 0
 }

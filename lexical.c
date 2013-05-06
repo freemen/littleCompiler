@@ -65,7 +65,8 @@ int getAWord(Token* token){
 			}while(ISWORD(ch));//read a word over
 			//TODO: add to token
 				addToken(token, ID);
-				add2SymbolT(token, length);	
+//				add2SymbolT(token, length);	
+				checkAtKeyWordT(token);
 			//bufp--;
 		}else if (ISNZERO(ch)){
 			do{

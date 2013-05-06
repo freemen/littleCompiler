@@ -15,6 +15,8 @@ int main(int argc, char *argv[]){
 	if (success == false)
 		return -1;
 	}	
+	initGrammar();
+	
 	grammarProcess();
 	
 	//finish
