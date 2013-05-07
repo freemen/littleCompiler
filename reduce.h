@@ -9,4 +9,4 @@ typedef struct reduceTableItem{
 }reduceTableItem;
 
 
-int reduce(int which);
+int reduce(int which, int* left);

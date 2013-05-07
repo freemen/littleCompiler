@@ -42,6 +42,7 @@ int getAWord(Token* token){
 		//TODO:deal with the mass letters and words..
 		//to read a complete word and jump over the blank
 		while(ISEMPTY(ch)) readNextLetter(&ch);//read until it's not empty
+		logIt("lexi: read %c",ch);
 //		if (ISLOWER(ch)){
 //			//TODO many keyWord should be varified
 //			switch(ch){
@@ -148,11 +149,24 @@ int getAWord(Token* token){
 					saveIt();
 					addToken(token, LPAR); 
 					break;
+				case ']':
+					saveIt();
+					addToken(token, RAB); 
+					break;
+				case '[':
+					saveIt();
+					addToken(token, LAB); 
+					break;
 				case END:
 					token->kind = FILEEND;
 					token->value = null;
 					//return length; 
 					break;
+				case IDONTKNOW:
+					token->kind = IDONTKNOW;
+					token->value = null;
+					//return length; 
+					break;					
 				default:
 					jumpOverError();
 					break;
@@ -199,6 +213,12 @@ void readNextLetter(char* ch){
 		if (bufp == bufLast){
 			readInBuffer();	
 		}	
+	}
+	if(*ch == END){
+		*ch = IDONTKNOW;
+		logIt("lexi: real End!!");
+		//bufp++;
+		return;
 	}
 	*ch = buffers[whichBuffer][bufp];
 	if(*ch == ' ')

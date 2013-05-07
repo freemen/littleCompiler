@@ -42,6 +42,13 @@ typedef struct STGroup{
 STGroup stGroup;
 int initSTGroup();
 
+typedef struct STID{
+	SymbolTableItem *pstItem;
+	int itemNum;					//item number in SymbolTable:表中序号；如果代表地址的话，这里保存地址
+	int tableNum;					//the number in the SymbolTableGroup, if it means address, it will be -1
+}STID;
+
+///////////////key word list///////////
 int tableSize;			//mark down how big is this symbolList
 SymbolItem* itemList;		//temporarily be the storage construct of the symbolTable
 
@@ -49,9 +56,9 @@ int iNum;						//the amount of the item now
 void oneMoreSymbol();	//iNum++
 void initKeyWordT();
 
-SymbolItem keyWord[] = 
+/*extern SymbolItem keyWord[] = 
 {
 	{INT,"int"},{CHAR,"char"},{FLOAT,"float"}//,{STRING, "string"},
 //	{WHILE,"while"},{FOR,"for"},{IF,"if"},{ELSE,"else"}
-};
+};*/
 #endif
