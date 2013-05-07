@@ -115,6 +115,15 @@ int getAWord(Token* token){
 			}
 		}else{				//not digit nor letter
 			switch(ch){
+				case '=':
+					saveAndNext();
+					if (ch == '='){
+						saveIt();
+						addToken(token, EQ);
+						break;
+					}
+					addToken(token, EQU);
+					break;				
 				case '+':
 					saveAndNext();
 					if (ch == '+'){
@@ -141,13 +150,25 @@ int getAWord(Token* token){
 					saveIt();
 					addToken(token, MUL);
 					break;
+				case '/':
+					saveIt();
+					addToken(token, DIV);
+					break;					
 				case ';':
 					saveIt();
 					addToken(token, FENHAO); 
 					break;
+				case ',':
+					saveIt();
+					addToken(token, COMMA); 
+					break;				
 				case '(':
 					saveIt();
 					addToken(token, LPAR); 
+					break;
+				case ')':
+					saveIt();
+					addToken(token, RPAR); 
 					break;
 				case ']':
 					saveIt();
@@ -157,6 +178,59 @@ int getAWord(Token* token){
 					saveIt();
 					addToken(token, LAB); 
 					break;
+				case '}':
+					saveIt();
+					addToken(token, RB); 
+					break;
+				case '{':
+					saveIt();
+					addToken(token, LB); 
+					break;
+				case '!':
+					saveAndNext();
+					if (ch == '='){
+						saveIt();
+						addToken(token, UEQ);
+						break;
+					}
+					addToken(token, BNOT);
+					break;														
+				case '>':
+					saveAndNext();
+					if (ch == '='){
+						saveIt();
+						addToken(token, GE);
+						break;
+					}
+					addToken(token, GT);
+					break;						
+				case '<':
+					saveAndNext();
+					if (ch == '='){
+						saveIt();
+						addToken(token, LE);
+						break;
+					}
+					addToken(token, LT);
+					break;
+				case '|':
+					saveAndNext();
+					if (ch == '|'){
+						saveIt();
+						addToken(token, BOR);
+						break;
+					}
+					addToken(token, IDONTKNOW);//TODO:
+					break;														
+				case '&':
+					saveAndNext();
+					if (ch == '&'){
+						saveIt();
+						addToken(token, BAND);
+						break;
+					}
+					addToken(token, IDONTKNOW);//TODO:
+					break;	
 				case END:
 					token->kind = FILEEND;
 					token->value = null;
@@ -214,12 +288,12 @@ void readNextLetter(char* ch){
 			readInBuffer();	
 		}	
 	}
-	if(*ch == END){
+/*	if(*ch == END){
 		*ch = IDONTKNOW;
 		logIt("lexi: real End!!");
 		//bufp++;
 		return;
-	}
+	}*/
 	*ch = buffers[whichBuffer][bufp];
 	if(*ch == ' ')
 		logIt("lexi: a blank!");

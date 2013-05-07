@@ -24,8 +24,8 @@ typedef struct SymbolTableItem{
 typedef struct SymbolTable{
 	char* tableName;						//这个符号表的名字
 	SymbolTableItem *stItems;		//符号表
-//	int now;										//现在指向的符号表项目
-	int length;									//实际拥有的符号项数目
+	int now;										//现在指向的符号表项目
+//	int length;									//实际拥有的符号项数目
 	int size;										//可用的内存大小
 	int fatherTable;							//调用它的father表在组里的编号
 	int childTable;							//下一个table在组里的编号

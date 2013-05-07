@@ -6,7 +6,7 @@ compiler: $(objects)
 $(objects) : public.h symbolTable.h
 lexical.o: lexical.h
 grammar.o: grammar.h reduce.h
-reduce.o: reduce.h
+reduce.o: reduce.h grammar.h
 
 .PHONY : clean
 clean :

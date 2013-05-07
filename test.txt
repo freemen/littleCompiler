@@ -1,2 +1,5 @@
 int **a;
 int e[10][23];
+int main(int argc, char** argv){
+
+}

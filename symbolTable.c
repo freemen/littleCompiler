@@ -1,5 +1,10 @@
 #include "symbolTable.h"
-
+SymbolItem keyWord[] = 
+{
+	{INT,"int"},{CHAR,"char"},{FLOAT,"float"},//,{STRING, "string"},
+	{WHILE,"while"},{IF,"if"},{ELSE,"else"},/*,{FOR,"for"}*/
+	{TRUE,"true"},{FALSE,"false"}
+};
 SymbolTable sTable;
 void	initSymbolT(){
 	initKeyWordT();
@@ -43,6 +48,7 @@ int checkAtKeyWordT(Token *token){
 			return i;					//如果找到了，就使用符号表的这一个
 		}
 	}
+	logIt("symT: a realId: %s",(char*)token->value);
 /*	it = itemList[iNum];
 	it.name = token->kind;
 	it.value = (char*)malloc(sizeof(char)*(length+1));

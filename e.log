@@ -1726,3 +1726,1236 @@ May,07th,2013, 06:27:24 --log: redu: in reduce 23:type= 24
 May,07th,2013, 06:27:24 --log: gram: check state:0,symbol:24 is 1
 May,07th,2013, 06:27:24 --log: gram: check state:1,symbol:23 is -999
 May,07th,2013, 06:27:24 --log: gram: ACCEPT!
+May,07th,2013, 08:48:21 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,07th,2013, 08:48:21 --log: lexical: initial finished
+May,07th,2013, 08:48:21 --log: gram: initGrammar finished
+May,07th,2013, 08:48:21 --log: lexi: read i
+May,07th,2013, 08:48:21 --log: lexi: a blank!
+May,07th,2013, 08:48:21 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 08:48:21 --log: gram: token<type:6, address:0x4051c4>
+May,07th,2013, 08:48:21 --log: gram: check state:0,symbol:6 is 6
+May,07th,2013, 08:48:21 --log: lexi: a blank!
+May,07th,2013, 08:48:21 --log: lexi: read *
+May,07th,2013, 08:48:21 --log: gram: token<type:11, address:0x601290>
+May,07th,2013, 08:48:21 --log: gram: check state:6,symbol:11 is -7
+May,07th,2013, 08:48:21 --log: redu: in reduce 6:type= 26
+May,07th,2013, 08:48:21 --log: gram: check state:0,symbol:26 is 3
+May,07th,2013, 08:48:21 --log: gram: check state:3,symbol:11 is 12
+May,07th,2013, 08:48:21 --log: lexi: read *
+May,07th,2013, 08:48:21 --log: gram: token<type:11, address:0x6012a0>
+May,07th,2013, 08:48:21 --log: gram: check state:12,symbol:11 is 12
+May,07th,2013, 08:48:21 --log: lexi: read a
+May,07th,2013, 08:48:21 --log: gram: token<type:9, address:0x6012b0>
+May,07th,2013, 08:48:21 --log: gram: check state:12,symbol:9 is -12
+May,07th,2013, 08:48:21 --log: redu: in reduce 11:type= 36
+May,07th,2013, 08:48:21 --log: gram: check state:12,symbol:36 is 21
+May,07th,2013, 08:48:21 --log: gram: check state:21,symbol:9 is -11
+May,07th,2013, 08:48:21 --log: redu: in reduce 10:type= 36
+May,07th,2013, 08:48:21 --log: gram: check state:12,symbol:36 is 21
+May,07th,2013, 08:48:21 --log: gram: check state:21,symbol:9 is -11
+May,07th,2013, 08:48:21 --log: redu: in reduce 10:type= 36
+May,07th,2013, 08:48:21 --log: gram: check state:3,symbol:36 is 11
+May,07th,2013, 08:48:21 --log: gram: check state:11,symbol:9 is 20
+May,07th,2013, 08:48:21 --log: lexi: read ;
+May,07th,2013, 08:48:21 --log: gram: token<type:1, address:0x6012c0>
+May,07th,2013, 08:48:21 --log: gram: check state:20,symbol:1 is -10
+May,07th,2013, 08:48:21 --log: redu: in reduce 9:type= 27
+May,07th,2013, 08:48:21 --log: gram: check state:3,symbol:27 is 10
+May,07th,2013, 08:48:21 --log: gram: check state:10,symbol:1 is -16
+May,07th,2013, 08:48:21 --log: redu: in reduce 15:type= 28
+May,07th,2013, 08:48:21 --log: gram: check state:10,symbol:28 is 15
+May,07th,2013, 08:48:21 --log: gram: check state:15,symbol:1 is 24
+May,07th,2013, 08:48:21 --log: lexi: begin a new line!
+May,07th,2013, 08:48:21 --log: lexi: read i
+May,07th,2013, 08:48:21 --log: lexi: a blank!
+May,07th,2013, 08:48:21 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 08:48:21 --log: gram: token<type:6, address:0x4051c4>
+May,07th,2013, 08:48:21 --log: gram: check state:24,symbol:6 is -4
+May,07th,2013, 08:48:21 --log: redu: in reduce 3:type= 29
+May,07th,2013, 08:48:21 --log: gram: check state:15,symbol:29 is 23
+May,07th,2013, 08:48:21 --log: gram: check state:23,symbol:6 is -1
+May,07th,2013, 08:48:21 --log: redu: in reduce 0:type= 25
+May,07th,2013, 08:48:21 --log: gram: check state:0,symbol:25 is 2
+May,07th,2013, 08:48:21 --log: gram: check state:2,symbol:6 is -23
+May,07th,2013, 08:48:21 --log: redu: in reduce 22:type= 24
+May,07th,2013, 08:48:21 --log: gram: check state:0,symbol:24 is 1
+May,07th,2013, 08:48:21 --log: gram: check state:1,symbol:6 is 6
+May,07th,2013, 08:48:21 --log: lexi: a blank!
+May,07th,2013, 08:48:21 --log: lexi: read e
+May,07th,2013, 08:48:21 --log: gram: token<type:9, address:0x6012e0>
+May,07th,2013, 08:48:21 --log: gram: check state:6,symbol:9 is -7
+May,07th,2013, 08:48:21 --log: redu: in reduce 6:type= 26
+May,07th,2013, 08:48:21 --log: gram: check state:1,symbol:26 is 3
+May,07th,2013, 08:48:21 --log: gram: check state:3,symbol:9 is -12
+May,07th,2013, 08:48:21 --log: redu: in reduce 11:type= 36
+May,07th,2013, 08:48:21 --log: gram: check state:3,symbol:36 is 11
+May,07th,2013, 08:48:21 --log: gram: check state:11,symbol:9 is 20
+May,07th,2013, 08:48:21 --log: lexi: read [
+May,07th,2013, 08:48:21 --log: gram: token<type:13, address:0x6012f0>
+May,07th,2013, 08:48:21 --log: gram: check state:20,symbol:13 is -10
+May,07th,2013, 08:48:21 --log: redu: in reduce 9:type= 27
+May,07th,2013, 08:48:21 --log: gram: check state:3,symbol:27 is 10
+May,07th,2013, 08:48:21 --log: gram: check state:10,symbol:13 is 19
+May,07th,2013, 08:48:21 --log: lexi: read 1
+May,07th,2013, 08:48:21 --log: gram: token<type:15, address:0x601300>
+May,07th,2013, 08:48:21 --log: gram: check state:19,symbol:15 is 28
+May,07th,2013, 08:48:21 --log: lexi: read ]
+May,07th,2013, 08:48:21 --log: gram: token<type:14, address:0x601310>
+May,07th,2013, 08:48:21 --log: gram: check state:28,symbol:14 is 34
+May,07th,2013, 08:48:21 --log: lexi: read [
+May,07th,2013, 08:48:21 --log: gram: token<type:13, address:0x601320>
+May,07th,2013, 08:48:21 --log: gram: check state:34,symbol:13 is -17
+May,07th,2013, 08:48:21 --log: redu: in reduce 16:type= 38
+May,07th,2013, 08:48:21 --log: gram: check state:28,symbol:38 is 33
+May,07th,2013, 08:48:21 --log: gram: check state:33,symbol:13 is 19
+May,07th,2013, 08:48:21 --log: lexi: read 2
+May,07th,2013, 08:48:21 --log: gram: token<type:15, address:0x601330>
+May,07th,2013, 08:48:21 --log: gram: check state:19,symbol:15 is 28
+May,07th,2013, 08:48:21 --log: lexi: read ]
+May,07th,2013, 08:48:21 --log: gram: token<type:14, address:0x601340>
+May,07th,2013, 08:48:21 --log: gram: check state:28,symbol:14 is 34
+May,07th,2013, 08:48:21 --log: lexi: read ;
+May,07th,2013, 08:48:21 --log: gram: token<type:1, address:0x601350>
+May,07th,2013, 08:48:21 --log: gram: check state:34,symbol:1 is -17
+May,07th,2013, 08:48:21 --log: redu: in reduce 16:type= 38
+May,07th,2013, 08:48:21 --log: gram: check state:28,symbol:38 is 33
+May,07th,2013, 08:48:21 --log: gram: check state:33,symbol:1 is -16
+May,07th,2013, 08:48:21 --log: redu: in reduce 15:type= 28
+May,07th,2013, 08:48:21 --log: gram: check state:33,symbol:28 is 37
+May,07th,2013, 08:48:21 --log: gram: check state:37,symbol:1 is -15
+May,07th,2013, 08:48:21 --log: redu: in reduce 14:type= 28
+May,07th,2013, 08:48:21 --log: gram: check state:33,symbol:28 is 37
+May,07th,2013, 08:48:21 --log: gram: check state:37,symbol:1 is -15
+May,07th,2013, 08:48:21 --log: redu: in reduce 14:type= 28
+May,07th,2013, 08:48:21 --log: gram: check state:10,symbol:28 is 15
+May,07th,2013, 08:48:21 --log: gram: check state:15,symbol:1 is 24
+May,07th,2013, 08:48:21 --log: lexi: read ÿ
+May,07th,2013, 08:48:21 --log: gram: End
+May,07th,2013, 08:48:21 --log: gram: check state:24,symbol:10 is -4
+May,07th,2013, 08:48:21 --log: redu: in reduce 3:type= 29
+May,07th,2013, 08:48:21 --log: gram: check state:15,symbol:29 is 23
+May,07th,2013, 08:48:21 --log: gram: check state:23,symbol:10 is -1
+May,07th,2013, 08:48:21 --log: redu: in reduce 0:type= 25
+May,07th,2013, 08:48:21 --log: gram: check state:1,symbol:25 is 2
+May,07th,2013, 08:48:21 --log: gram: check state:2,symbol:10 is -23
+May,07th,2013, 08:48:21 --log: redu: in reduce 22:type= 24
+May,07th,2013, 08:48:21 --log: gram: check state:1,symbol:24 is 9
+May,07th,2013, 08:48:21 --log: gram: check state:9,symbol:10 is 14
+May,07th,2013, 08:48:21 --log: lexi: real End!!
+May,07th,2013, 08:48:21 --log: lexi: read 
+May,07th,2013, 08:48:21 --log: gram: token<type:23, address:0>
+May,07th,2013, 08:48:21 --log: gram: check state:14,symbol:23 is -24
+May,07th,2013, 08:48:21 --log: redu: in reduce 23:type= 24
+May,07th,2013, 08:48:21 --log: gram: check state:0,symbol:24 is 1
+May,07th,2013, 08:48:21 --log: gram: check state:1,symbol:23 is -999
+May,07th,2013, 08:48:21 --log: gram: ACCEPT!
+May,07th,2013, 09:03:37 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,07th,2013, 09:03:37 --log: lexical: initial finished
+May,07th,2013, 09:03:37 --log: gram: initGrammar finished
+May,07th,2013, 09:03:37 --log: lexi: read i
+May,07th,2013, 09:03:37 --log: lexi: a blank!
+May,07th,2013, 09:03:37 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 09:03:37 --log: gram: token<type:6, address:0x4051c4>
+May,07th,2013, 09:03:37 --log: gram: check state:0,symbol:6 is 6
+May,07th,2013, 09:03:37 --log: lexi: a blank!
+May,07th,2013, 09:03:37 --log: lexi: read *
+May,07th,2013, 09:03:37 --log: gram: token<type:11, address:0x361290>
+May,07th,2013, 09:03:37 --log: gram: check state:6,symbol:11 is -7
+May,07th,2013, 09:03:37 --log: redu: in reduce 6:type= 26
+May,07th,2013, 09:03:37 --log: gram: check state:0,symbol:26 is 3
+May,07th,2013, 09:03:37 --log: gram: check state:3,symbol:11 is 12
+May,07th,2013, 09:03:37 --log: lexi: read *
+May,07th,2013, 09:03:37 --log: gram: token<type:11, address:0x3612a0>
+May,07th,2013, 09:04:14 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,07th,2013, 09:04:14 --log: lexical: initial finished
+May,07th,2013, 09:04:14 --log: gram: initGrammar finished
+May,07th,2013, 09:04:14 --log: lexi: read i
+May,07th,2013, 09:04:14 --log: lexi: a blank!
+May,07th,2013, 09:04:14 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 09:04:14 --log: gram: token<type:6, address:0x4061c4>
+May,07th,2013, 09:04:14 --log: gram: check state:0,symbol:6 is 6
+May,07th,2013, 09:04:14 --log: lexi: a blank!
+May,07th,2013, 09:04:14 --log: lexi: read *
+May,07th,2013, 09:04:14 --log: gram: token<type:11, address:0x5f1290>
+May,07th,2013, 09:04:14 --log: gram: check state:6,symbol:11 is -7
+May,07th,2013, 09:04:14 --log: redu: in reduce 6:type= 26
+May,07th,2013, 09:04:14 --log: gram: check state:0,symbol:26 is 3
+May,07th,2013, 09:04:14 --log: gram: check state:3,symbol:11 is 12
+May,07th,2013, 09:04:14 --log: lexi: read *
+May,07th,2013, 09:04:14 --log: gram: token<type:11, address:0x5f12a0>
+May,07th,2013, 09:04:14 --log: gram: check state:12,symbol:11 is 12
+May,07th,2013, 09:04:14 --log: lexi: read a
+May,07th,2013, 09:04:14 --log: gram: token<type:9, address:0x5f12b0>
+May,07th,2013, 09:04:14 --log: gram: check state:12,symbol:9 is -12
+May,07th,2013, 09:04:14 --log: redu: in reduce 11:type= 36
+May,07th,2013, 09:04:14 --log: gram: check state:12,symbol:36 is 21
+May,07th,2013, 09:04:14 --log: gram: check state:21,symbol:9 is -11
+May,07th,2013, 09:04:14 --log: redu: in reduce 10:type= 36
+May,07th,2013, 09:04:14 --log: gram: check state:12,symbol:36 is 21
+May,07th,2013, 09:04:14 --log: gram: check state:21,symbol:9 is -11
+May,07th,2013, 09:04:14 --log: redu: in reduce 10:type= 36
+May,07th,2013, 09:04:14 --log: gram: check state:3,symbol:36 is 11
+May,07th,2013, 09:04:14 --log: gram: check state:11,symbol:9 is 20
+May,07th,2013, 09:04:14 --log: lexi: read ;
+May,07th,2013, 09:04:14 --log: gram: token<type:1, address:0x5f12c0>
+May,07th,2013, 09:04:14 --log: gram: check state:20,symbol:1 is -10
+May,07th,2013, 09:04:14 --log: redu: in reduce 9:type= 27
+May,07th,2013, 09:04:14 --log: gram: check state:3,symbol:27 is 10
+May,07th,2013, 09:04:14 --log: gram: check state:10,symbol:1 is -16
+May,07th,2013, 09:04:14 --log: redu: in reduce 15:type= 28
+May,07th,2013, 09:04:14 --log: gram: check state:10,symbol:28 is 15
+May,07th,2013, 09:04:14 --log: gram: check state:15,symbol:1 is 24
+May,07th,2013, 09:04:14 --log: lexi: begin a new line!
+May,07th,2013, 09:04:14 --log: lexi: read i
+May,07th,2013, 09:04:14 --log: lexi: a blank!
+May,07th,2013, 09:04:14 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 09:04:14 --log: gram: token<type:6, address:0x4061c4>
+May,07th,2013, 09:04:14 --log: gram: check state:24,symbol:6 is -4
+May,07th,2013, 09:04:14 --log: redu: in reduce 3:type= 29
+May,07th,2013, 09:04:14 --log: gram: check state:15,symbol:29 is 23
+May,07th,2013, 09:04:14 --log: gram: check state:23,symbol:6 is -1
+May,07th,2013, 09:04:14 --log: redu: in reduce 0:type= 25
+May,07th,2013, 09:04:14 --log: gram: check state:0,symbol:25 is 2
+May,07th,2013, 09:04:14 --log: gram: check state:2,symbol:6 is -23
+May,07th,2013, 09:04:14 --log: redu: in reduce 22:type= 24
+May,07th,2013, 09:04:14 --log: gram: check state:0,symbol:24 is 1
+May,07th,2013, 09:04:14 --log: gram: check state:1,symbol:6 is 6
+May,07th,2013, 09:04:14 --log: lexi: a blank!
+May,07th,2013, 09:04:14 --log: lexi: read e
+May,07th,2013, 09:04:14 --log: gram: token<type:9, address:0x5f12e0>
+May,07th,2013, 09:04:14 --log: gram: check state:6,symbol:9 is -7
+May,07th,2013, 09:04:14 --log: redu: in reduce 6:type= 26
+May,07th,2013, 09:04:14 --log: gram: check state:1,symbol:26 is 3
+May,07th,2013, 09:04:14 --log: gram: check state:3,symbol:9 is -12
+May,07th,2013, 09:04:14 --log: redu: in reduce 11:type= 36
+May,07th,2013, 09:04:14 --log: gram: check state:3,symbol:36 is 11
+May,07th,2013, 09:04:14 --log: gram: check state:11,symbol:9 is 20
+May,07th,2013, 09:04:14 --log: lexi: read [
+May,07th,2013, 09:04:14 --log: gram: token<type:13, address:0x5f12f0>
+May,07th,2013, 09:04:14 --log: gram: check state:20,symbol:13 is -10
+May,07th,2013, 09:04:14 --log: redu: in reduce 9:type= 27
+May,07th,2013, 09:04:14 --log: gram: check state:3,symbol:27 is 10
+May,07th,2013, 09:04:14 --log: gram: check state:10,symbol:13 is 19
+May,07th,2013, 09:04:14 --log: lexi: read 1
+May,07th,2013, 09:04:14 --log: gram: token<type:15, address:0x5f1300>
+May,07th,2013, 09:04:14 --log: gram: check state:19,symbol:15 is 28
+May,07th,2013, 09:04:14 --log: lexi: read ]
+May,07th,2013, 09:04:14 --log: gram: token<type:14, address:0x5f1310>
+May,07th,2013, 09:04:14 --log: gram: check state:28,symbol:14 is 34
+May,07th,2013, 09:04:14 --log: lexi: read [
+May,07th,2013, 09:04:14 --log: gram: token<type:13, address:0x5f1320>
+May,07th,2013, 09:04:14 --log: gram: check state:34,symbol:13 is -17
+May,07th,2013, 09:04:14 --log: redu: in reduce 16:type= 38
+May,07th,2013, 09:04:14 --log: gram: check state:28,symbol:38 is 33
+May,07th,2013, 09:04:14 --log: gram: check state:33,symbol:13 is 19
+May,07th,2013, 09:04:14 --log: lexi: read 2
+May,07th,2013, 09:04:14 --log: gram: token<type:15, address:0x5f1330>
+May,07th,2013, 09:04:14 --log: gram: check state:19,symbol:15 is 28
+May,07th,2013, 09:04:14 --log: lexi: read ]
+May,07th,2013, 09:04:14 --log: gram: token<type:14, address:0x5f1340>
+May,07th,2013, 09:04:14 --log: gram: check state:28,symbol:14 is 34
+May,07th,2013, 09:04:14 --log: lexi: read ;
+May,07th,2013, 09:04:14 --log: gram: token<type:1, address:0x5f1350>
+May,07th,2013, 09:04:14 --log: gram: check state:34,symbol:1 is -17
+May,07th,2013, 09:04:14 --log: redu: in reduce 16:type= 38
+May,07th,2013, 09:04:14 --log: gram: check state:28,symbol:38 is 33
+May,07th,2013, 09:04:14 --log: gram: check state:33,symbol:1 is -16
+May,07th,2013, 09:04:14 --log: redu: in reduce 15:type= 28
+May,07th,2013, 09:04:14 --log: gram: check state:33,symbol:28 is 37
+May,07th,2013, 09:04:14 --log: gram: check state:37,symbol:1 is -15
+May,07th,2013, 09:04:14 --log: redu: in reduce 14:type= 28
+May,07th,2013, 09:04:14 --log: gram: check state:33,symbol:28 is 37
+May,07th,2013, 09:04:14 --log: gram: check state:37,symbol:1 is -15
+May,07th,2013, 09:04:14 --log: redu: in reduce 14:type= 28
+May,07th,2013, 09:04:14 --log: gram: check state:10,symbol:28 is 15
+May,07th,2013, 09:04:14 --log: gram: check state:15,symbol:1 is 24
+May,07th,2013, 09:04:14 --log: lexi: read ÿ
+May,07th,2013, 09:04:14 --log: gram: End
+May,07th,2013, 09:04:14 --log: gram: check state:24,symbol:10 is -4
+May,07th,2013, 09:04:14 --log: redu: in reduce 3:type= 29
+May,07th,2013, 09:04:14 --log: gram: check state:15,symbol:29 is 23
+May,07th,2013, 09:04:14 --log: gram: check state:23,symbol:10 is -1
+May,07th,2013, 09:04:14 --log: redu: in reduce 0:type= 25
+May,07th,2013, 09:04:14 --log: gram: check state:1,symbol:25 is 2
+May,07th,2013, 09:04:14 --log: gram: check state:2,symbol:10 is -23
+May,07th,2013, 09:04:14 --log: redu: in reduce 22:type= 24
+May,07th,2013, 09:04:14 --log: gram: check state:1,symbol:24 is 9
+May,07th,2013, 09:04:14 --log: gram: check state:9,symbol:10 is 14
+May,07th,2013, 09:04:14 --log: lexi: real End!!
+May,07th,2013, 09:04:14 --log: lexi: read 
+May,07th,2013, 09:04:14 --log: gram: token<type:23, address:0>
+May,07th,2013, 09:04:14 --log: gram: check state:14,symbol:23 is -24
+May,07th,2013, 09:04:14 --log: redu: in reduce 23:type= 24
+May,07th,2013, 09:04:14 --log: gram: check state:0,symbol:24 is 1
+May,07th,2013, 09:04:14 --log: gram: check state:1,symbol:23 is -999
+May,07th,2013, 09:04:14 --log: gram: ACCEPT!
+May,07th,2013, 10:54:28 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,07th,2013, 10:54:28 --log: lexical: initial finished
+May,07th,2013, 10:54:28 --log: gram: initGrammar finished
+May,07th,2013, 10:54:28 --log: lexi: read i
+May,07th,2013, 10:54:28 --log: lexi: a blank!
+May,07th,2013, 10:54:28 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 10:54:28 --log: gram: token<type:6, address:0x40c3c0>
+May,07th,2013, 10:54:28 --log: gram: check state:0,symbol:6 is 10
+May,07th,2013, 10:54:28 --log: lexi: a blank!
+May,07th,2013, 10:54:28 --log: lexi: read *
+May,07th,2013, 10:54:28 --log: gram: token<type:11, address:0x281290>
+May,07th,2013, 10:54:28 --log: gram: check state:10,symbol:11 is -7
+May,07th,2013, 10:54:28 --log: redu: in reduce 6:type= 43
+May,07th,2013, 10:54:28 --log: gram: check state:0,symbol:43 is 4
+May,07th,2013, 10:54:28 --log: gram: check state:4,symbol:11 is 19
+May,07th,2013, 10:54:28 --log: lexi: read *
+May,07th,2013, 10:54:28 --log: gram: token<type:11, address:0x2812a0>
+May,07th,2013, 10:54:28 --log: gram: check state:19,symbol:11 is 19
+May,07th,2013, 10:54:28 --log: lexi: read a
+May,07th,2013, 10:54:28 --log: gram: token<type:9, address:0x2812b0>
+May,07th,2013, 10:54:28 --log: gram: check state:19,symbol:9 is -12
+May,07th,2013, 10:54:28 --log: redu: in reduce 11:type= 53
+May,07th,2013, 10:54:28 --log: gram: check state:19,symbol:53 is 42
+May,07th,2013, 10:54:28 --log: gram: check state:42,symbol:9 is -11
+May,07th,2013, 10:54:28 --log: redu: in reduce 10:type= 53
+May,07th,2013, 10:54:28 --log: gram: check state:19,symbol:53 is 42
+May,07th,2013, 10:54:28 --log: gram: check state:42,symbol:9 is -11
+May,07th,2013, 10:54:28 --log: redu: in reduce 10:type= 53
+May,07th,2013, 10:54:28 --log: gram: check state:4,symbol:53 is 18
+May,07th,2013, 10:54:28 --log: gram: check state:18,symbol:9 is 41
+May,07th,2013, 10:54:28 --log: lexi: read ;
+May,07th,2013, 10:54:28 --log: gram: token<type:1, address:0x2812c0>
+May,07th,2013, 10:54:28 --log: gram: check state:41,symbol:1 is -10
+May,07th,2013, 10:54:28 --log: redu: in reduce 9:type= 44
+May,07th,2013, 10:54:28 --log: gram: check state:4,symbol:44 is 17
+May,07th,2013, 10:54:28 --log: gram: check state:17,symbol:1 is -16
+May,07th,2013, 10:54:28 --log: redu: in reduce 15:type= 45
+May,07th,2013, 10:54:28 --log: gram: check state:17,symbol:45 is 36
+May,07th,2013, 10:54:28 --log: gram: check state:36,symbol:1 is 66
+May,07th,2013, 10:54:28 --log: lexi: begin a new line!
+May,07th,2013, 10:54:28 --log: lexi: read i
+May,07th,2013, 10:54:28 --log: lexi: a blank!
+May,07th,2013, 10:54:28 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 10:54:28 --log: gram: token<type:6, address:0x40c3c0>
+May,07th,2013, 10:54:28 --log: gram: check state:66,symbol:6 is -4
+May,07th,2013, 10:54:28 --log: redu: in reduce 3:type= 46
+May,07th,2013, 10:54:28 --log: gram: check state:36,symbol:46 is 65
+May,07th,2013, 10:54:28 --log: gram: check state:65,symbol:6 is -1
+May,07th,2013, 10:54:28 --log: redu: in reduce 0:type= 42
+May,07th,2013, 10:54:28 --log: gram: check state:0,symbol:42 is 3
+May,07th,2013, 10:54:28 --log: gram: check state:3,symbol:6 is -58
+May,07th,2013, 10:54:28 --log: redu: in reduce 57:type= 40
+May,07th,2013, 10:54:28 --log: gram: check state:0,symbol:40 is 1
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 10:54:28 --log: lexi: a blank!
+May,07th,2013, 10:54:28 --log: lexi: read e
+May,07th,2013, 10:54:28 --log: gram: token<type:9, address:0x2812e0>
+May,07th,2013, 10:54:28 --log: gram: check state:10,symbol:9 is -7
+May,07th,2013, 10:54:28 --log: redu: in reduce 6:type= 43
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:43 is 4
+May,07th,2013, 10:54:28 --log: gram: check state:4,symbol:9 is -12
+May,07th,2013, 10:54:28 --log: redu: in reduce 11:type= 53
+May,07th,2013, 10:54:28 --log: gram: check state:4,symbol:53 is 18
+May,07th,2013, 10:54:28 --log: gram: check state:18,symbol:9 is 41
+May,07th,2013, 10:54:28 --log: lexi: read [
+May,07th,2013, 10:54:28 --log: gram: token<type:13, address:0x2812f0>
+May,07th,2013, 10:54:28 --log: gram: check state:41,symbol:13 is -10
+May,07th,2013, 10:54:28 --log: redu: in reduce 9:type= 44
+May,07th,2013, 10:54:28 --log: gram: check state:4,symbol:44 is 17
+May,07th,2013, 10:54:28 --log: gram: check state:17,symbol:13 is 40
+May,07th,2013, 10:54:28 --log: lexi: read 1
+May,07th,2013, 10:54:28 --log: gram: token<type:15, address:0x281300>
+May,07th,2013, 10:54:28 --log: gram: check state:40,symbol:15 is 70
+May,07th,2013, 10:54:28 --log: lexi: read ]
+May,07th,2013, 10:54:28 --log: gram: token<type:14, address:0x281310>
+May,07th,2013, 10:54:28 --log: gram: check state:70,symbol:14 is 89
+May,07th,2013, 10:54:28 --log: lexi: read [
+May,07th,2013, 10:54:28 --log: gram: token<type:13, address:0x281320>
+May,07th,2013, 10:54:28 --log: gram: check state:89,symbol:13 is -17
+May,07th,2013, 10:54:28 --log: redu: in reduce 16:type= 55
+May,07th,2013, 10:54:28 --log: gram: check state:70,symbol:55 is 88
+May,07th,2013, 10:54:28 --log: gram: check state:88,symbol:13 is 40
+May,07th,2013, 10:54:28 --log: lexi: read 2
+May,07th,2013, 10:54:28 --log: gram: token<type:15, address:0x281330>
+May,07th,2013, 10:54:28 --log: gram: check state:40,symbol:15 is 70
+May,07th,2013, 10:54:28 --log: lexi: read ]
+May,07th,2013, 10:54:28 --log: gram: token<type:14, address:0x281340>
+May,07th,2013, 10:54:28 --log: gram: check state:70,symbol:14 is 89
+May,07th,2013, 10:54:28 --log: lexi: read ;
+May,07th,2013, 10:54:28 --log: gram: token<type:1, address:0x281350>
+May,07th,2013, 10:54:28 --log: gram: check state:89,symbol:1 is -17
+May,07th,2013, 10:54:28 --log: redu: in reduce 16:type= 55
+May,07th,2013, 10:54:28 --log: gram: check state:70,symbol:55 is 88
+May,07th,2013, 10:54:28 --log: gram: check state:88,symbol:1 is -16
+May,07th,2013, 10:54:28 --log: redu: in reduce 15:type= 45
+May,07th,2013, 10:54:28 --log: gram: check state:88,symbol:45 is 96
+May,07th,2013, 10:54:28 --log: gram: check state:96,symbol:1 is -15
+May,07th,2013, 10:54:28 --log: redu: in reduce 14:type= 45
+May,07th,2013, 10:54:28 --log: gram: check state:88,symbol:45 is 96
+May,07th,2013, 10:54:28 --log: gram: check state:96,symbol:1 is -15
+May,07th,2013, 10:54:28 --log: redu: in reduce 14:type= 45
+May,07th,2013, 10:54:28 --log: gram: check state:17,symbol:45 is 36
+May,07th,2013, 10:54:28 --log: gram: check state:36,symbol:1 is 66
+May,07th,2013, 10:54:28 --log: lexi: read ÿ
+May,07th,2013, 10:54:28 --log: gram: End
+May,07th,2013, 10:54:28 --log: gram: check state:66,symbol:10 is -4
+May,07th,2013, 10:54:28 --log: redu: in reduce 3:type= 46
+May,07th,2013, 10:54:28 --log: gram: check state:36,symbol:46 is 65
+May,07th,2013, 10:54:28 --log: gram: check state:65,symbol:10 is -1
+May,07th,2013, 10:54:28 --log: redu: in reduce 0:type= 42
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:42 is 3
+May,07th,2013, 10:54:28 --log: gram: check state:3,symbol:10 is -58
+May,07th,2013, 10:54:28 --log: redu: in reduce 57:type= 40
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:40 is 1
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:10 is -62
+May,07th,2013, 10:54:28 --log: redu: in reduce 61:type= 41
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:41 is 16
+May,07th,2013, 10:54:28 --log: gram: check state:16,symbol:10 is 35
+May,07th,2013, 10:54:28 --log: lexi: real End!!
+May,07th,2013, 10:54:28 --log: lexi: read '
+May,07th,2013, 10:54:28 --log: gram: token<type:39, address:0>
+May,07th,2013, 10:54:28 --log: gram: check state:35,symbol:39 is -61
+May,07th,2013, 10:54:28 --log: redu: in reduce 60:type= 41
+May,07th,2013, 10:54:28 --log: gram: check state:1,symbol:41 is 16
+May,07th,2013, 10:54:28 --log: gram: check state:16,symbol:39 is 0
+May,07th,2013, 10:54:28 --e: error!
+May,07th,2013, 11:08:25 --log: lexi: readed 23 in buffer
+last several words: int **a;
+int e[10][23];ÿ
+May,07th,2013, 11:08:25 --log: lexical: initial finished
+May,07th,2013, 11:08:25 --log: gram: initGrammar finished
+May,07th,2013, 11:08:25 --log: lexi: read i
+May,07th,2013, 11:08:25 --log: lexi: a blank!
+May,07th,2013, 11:08:25 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:08:25 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:08:25 --log: gram: check state:0,symbol:6 is 10
+May,07th,2013, 11:08:25 --log: lexi: a blank!
+May,07th,2013, 11:08:25 --log: lexi: read *
+May,07th,2013, 11:08:25 --log: gram: token<type:10, address:0x851290>
+May,07th,2013, 11:08:25 --log: gram: check state:10,symbol:10 is -7
+May,07th,2013, 11:08:25 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:08:25 --log: gram: check state:0,symbol:42 is 4
+May,07th,2013, 11:08:25 --log: gram: check state:4,symbol:10 is 19
+May,07th,2013, 11:08:25 --log: lexi: read *
+May,07th,2013, 11:08:25 --log: gram: token<type:10, address:0x8512a0>
+May,07th,2013, 11:08:25 --log: gram: check state:19,symbol:10 is 19
+May,07th,2013, 11:08:25 --log: lexi: read a
+May,07th,2013, 11:08:25 --log: gram: token<type:9, address:0x8512b0>
+May,07th,2013, 11:08:25 --log: gram: check state:19,symbol:9 is -12
+May,07th,2013, 11:08:25 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:08:25 --log: gram: check state:19,symbol:52 is 41
+May,07th,2013, 11:08:25 --log: gram: check state:41,symbol:9 is -11
+May,07th,2013, 11:08:25 --log: redu: in reduce 10:type= 52
+May,07th,2013, 11:08:25 --log: gram: check state:19,symbol:52 is 41
+May,07th,2013, 11:08:25 --log: gram: check state:41,symbol:9 is -11
+May,07th,2013, 11:08:25 --log: redu: in reduce 10:type= 52
+May,07th,2013, 11:08:25 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:08:25 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:08:25 --log: lexi: read ;
+May,07th,2013, 11:08:25 --log: gram: token<type:1, address:0x8512c0>
+May,07th,2013, 11:08:25 --log: gram: check state:40,symbol:1 is -10
+May,07th,2013, 11:08:25 --log: redu: in reduce 9:type= 43
+May,07th,2013, 11:08:25 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:08:25 --log: gram: check state:17,symbol:1 is -16
+May,07th,2013, 11:08:25 --log: redu: in reduce 15:type= 44
+May,07th,2013, 11:08:25 --log: gram: check state:17,symbol:44 is 35
+May,07th,2013, 11:08:25 --log: gram: check state:35,symbol:1 is 65
+May,07th,2013, 11:08:25 --log: lexi: begin a new line!
+May,07th,2013, 11:08:25 --log: lexi: read i
+May,07th,2013, 11:08:25 --log: lexi: a blank!
+May,07th,2013, 11:08:25 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:08:25 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:08:25 --log: gram: check state:65,symbol:6 is -4
+May,07th,2013, 11:08:25 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:08:25 --log: gram: check state:35,symbol:45 is 64
+May,07th,2013, 11:08:25 --log: gram: check state:64,symbol:6 is -1
+May,07th,2013, 11:08:25 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:08:25 --log: gram: check state:0,symbol:41 is 3
+May,07th,2013, 11:08:25 --log: gram: check state:3,symbol:6 is -58
+May,07th,2013, 11:08:25 --log: redu: in reduce 57:type= 39
+May,07th,2013, 11:08:25 --log: gram: check state:0,symbol:39 is 1
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:08:25 --log: lexi: a blank!
+May,07th,2013, 11:08:25 --log: lexi: read e
+May,07th,2013, 11:08:25 --log: gram: token<type:9, address:0x8512e0>
+May,07th,2013, 11:08:25 --log: gram: check state:10,symbol:9 is -7
+May,07th,2013, 11:08:25 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:08:25 --log: gram: check state:4,symbol:9 is -12
+May,07th,2013, 11:08:25 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:08:25 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:08:25 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:08:25 --log: lexi: read [
+May,07th,2013, 11:08:25 --log: gram: token<type:12, address:0x8512f0>
+May,07th,2013, 11:08:25 --log: gram: check state:40,symbol:12 is -10
+May,07th,2013, 11:08:25 --log: redu: in reduce 9:type= 43
+May,07th,2013, 11:08:25 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:08:25 --log: gram: check state:17,symbol:12 is 39
+May,07th,2013, 11:08:25 --log: lexi: read 1
+May,07th,2013, 11:08:25 --log: gram: token<type:14, address:0x851300>
+May,07th,2013, 11:08:25 --log: gram: check state:39,symbol:14 is 69
+May,07th,2013, 11:08:25 --log: lexi: read ]
+May,07th,2013, 11:08:25 --log: gram: token<type:13, address:0x851310>
+May,07th,2013, 11:08:25 --log: gram: check state:69,symbol:13 is 88
+May,07th,2013, 11:08:25 --log: lexi: read [
+May,07th,2013, 11:08:25 --log: gram: token<type:12, address:0x851320>
+May,07th,2013, 11:08:25 --log: gram: check state:88,symbol:12 is -17
+May,07th,2013, 11:08:25 --log: redu: in reduce 16:type= 54
+May,07th,2013, 11:08:25 --log: gram: check state:69,symbol:54 is 87
+May,07th,2013, 11:08:25 --log: gram: check state:87,symbol:12 is 39
+May,07th,2013, 11:08:25 --log: lexi: read 2
+May,07th,2013, 11:08:25 --log: gram: token<type:14, address:0x851330>
+May,07th,2013, 11:08:25 --log: gram: check state:39,symbol:14 is 69
+May,07th,2013, 11:08:25 --log: lexi: read ]
+May,07th,2013, 11:08:25 --log: gram: token<type:13, address:0x851340>
+May,07th,2013, 11:08:25 --log: gram: check state:69,symbol:13 is 88
+May,07th,2013, 11:08:25 --log: lexi: read ;
+May,07th,2013, 11:08:25 --log: gram: token<type:1, address:0x851350>
+May,07th,2013, 11:08:25 --log: gram: check state:88,symbol:1 is -17
+May,07th,2013, 11:08:25 --log: redu: in reduce 16:type= 54
+May,07th,2013, 11:08:25 --log: gram: check state:69,symbol:54 is 87
+May,07th,2013, 11:08:25 --log: gram: check state:87,symbol:1 is -16
+May,07th,2013, 11:08:25 --log: redu: in reduce 15:type= 44
+May,07th,2013, 11:08:25 --log: gram: check state:87,symbol:44 is 95
+May,07th,2013, 11:08:25 --log: gram: check state:95,symbol:1 is -15
+May,07th,2013, 11:08:25 --log: redu: in reduce 14:type= 44
+May,07th,2013, 11:08:25 --log: gram: check state:87,symbol:44 is 95
+May,07th,2013, 11:08:25 --log: gram: check state:95,symbol:1 is -15
+May,07th,2013, 11:08:25 --log: redu: in reduce 14:type= 44
+May,07th,2013, 11:08:25 --log: gram: check state:17,symbol:44 is 35
+May,07th,2013, 11:08:25 --log: gram: check state:35,symbol:1 is 65
+May,07th,2013, 11:08:25 --log: lexi: read ÿ
+May,07th,2013, 11:08:25 --log: gram: End
+May,07th,2013, 11:08:25 --log: gram: check state:65,symbol:38 is -4
+May,07th,2013, 11:08:25 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:08:25 --log: gram: check state:35,symbol:45 is 64
+May,07th,2013, 11:08:25 --log: gram: check state:64,symbol:38 is -1
+May,07th,2013, 11:08:25 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:41 is 3
+May,07th,2013, 11:08:25 --log: gram: check state:3,symbol:38 is -58
+May,07th,2013, 11:08:25 --log: redu: in reduce 57:type= 39
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:39 is 1
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:38 is -62
+May,07th,2013, 11:08:25 --log: redu: in reduce 61:type= 40
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:40 is 16
+May,07th,2013, 11:08:25 --log: gram: check state:16,symbol:38 is -61
+May,07th,2013, 11:08:25 --log: redu: in reduce 60:type= 40
+May,07th,2013, 11:08:25 --log: gram: check state:1,symbol:40 is 16
+May,07th,2013, 11:08:25 --log: gram: check state:16,symbol:38 is -61
+May,07th,2013, 11:08:25 --log: redu: in reduce 60:type= 40
+May,07th,2013, 11:08:25 --log: gram: check state:0,symbol:40 is 2
+May,07th,2013, 11:08:25 --log: gram: check state:2,symbol:38 is -999
+May,07th,2013, 11:08:25 --log: gram: ACCEPT!
+May,07th,2013, 11:09:38 --log: lexi: readed 59 in buffer
+last several words: int **a;
+int e[10][23];
+int main(int argc, char** argv){
+
+}ÿ
+May,07th,2013, 11:09:38 --log: lexical: initial finished
+May,07th,2013, 11:09:38 --log: gram: initGrammar finished
+May,07th,2013, 11:09:38 --log: lexi: read i
+May,07th,2013, 11:09:38 --log: lexi: a blank!
+May,07th,2013, 11:09:38 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:09:38 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:09:38 --log: gram: check state:0,symbol:6 is 10
+May,07th,2013, 11:09:38 --log: lexi: a blank!
+May,07th,2013, 11:09:38 --log: lexi: read *
+May,07th,2013, 11:09:38 --log: gram: token<type:10, address:0x301290>
+May,07th,2013, 11:09:38 --log: gram: check state:10,symbol:10 is -7
+May,07th,2013, 11:09:38 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:09:38 --log: gram: check state:0,symbol:42 is 4
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:10 is 19
+May,07th,2013, 11:09:38 --log: lexi: read *
+May,07th,2013, 11:09:38 --log: gram: token<type:10, address:0x3012a0>
+May,07th,2013, 11:09:38 --log: gram: check state:19,symbol:10 is 19
+May,07th,2013, 11:09:38 --log: lexi: read a
+May,07th,2013, 11:09:38 --log: gram: token<type:9, address:0x3012b0>
+May,07th,2013, 11:09:38 --log: gram: check state:19,symbol:9 is -12
+May,07th,2013, 11:09:38 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:09:38 --log: gram: check state:19,symbol:52 is 41
+May,07th,2013, 11:09:38 --log: gram: check state:41,symbol:9 is -11
+May,07th,2013, 11:09:38 --log: redu: in reduce 10:type= 52
+May,07th,2013, 11:09:38 --log: gram: check state:19,symbol:52 is 41
+May,07th,2013, 11:09:38 --log: gram: check state:41,symbol:9 is -11
+May,07th,2013, 11:09:38 --log: redu: in reduce 10:type= 52
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:09:38 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:09:38 --log: lexi: read ;
+May,07th,2013, 11:09:38 --log: gram: token<type:1, address:0x3012c0>
+May,07th,2013, 11:09:38 --log: gram: check state:40,symbol:1 is -10
+May,07th,2013, 11:09:38 --log: redu: in reduce 9:type= 43
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:09:38 --log: gram: check state:17,symbol:1 is -16
+May,07th,2013, 11:09:38 --log: redu: in reduce 15:type= 44
+May,07th,2013, 11:09:38 --log: gram: check state:17,symbol:44 is 35
+May,07th,2013, 11:09:38 --log: gram: check state:35,symbol:1 is 65
+May,07th,2013, 11:09:38 --log: lexi: begin a new line!
+May,07th,2013, 11:09:38 --log: lexi: read i
+May,07th,2013, 11:09:38 --log: lexi: a blank!
+May,07th,2013, 11:09:38 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:09:38 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:09:38 --log: gram: check state:65,symbol:6 is -4
+May,07th,2013, 11:09:38 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:09:38 --log: gram: check state:35,symbol:45 is 64
+May,07th,2013, 11:09:38 --log: gram: check state:64,symbol:6 is -1
+May,07th,2013, 11:09:38 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:09:38 --log: gram: check state:0,symbol:41 is 3
+May,07th,2013, 11:09:38 --log: gram: check state:3,symbol:6 is -58
+May,07th,2013, 11:09:38 --log: redu: in reduce 57:type= 39
+May,07th,2013, 11:09:38 --log: gram: check state:0,symbol:39 is 1
+May,07th,2013, 11:09:38 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:09:38 --log: lexi: a blank!
+May,07th,2013, 11:09:38 --log: lexi: read e
+May,07th,2013, 11:09:38 --log: gram: token<type:9, address:0x3012e0>
+May,07th,2013, 11:09:38 --log: gram: check state:10,symbol:9 is -7
+May,07th,2013, 11:09:38 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:09:38 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:9 is -12
+May,07th,2013, 11:09:38 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:09:38 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:09:38 --log: lexi: read [
+May,07th,2013, 11:09:38 --log: gram: token<type:12, address:0x3012f0>
+May,07th,2013, 11:09:38 --log: gram: check state:40,symbol:12 is -10
+May,07th,2013, 11:09:38 --log: redu: in reduce 9:type= 43
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:09:38 --log: gram: check state:17,symbol:12 is 39
+May,07th,2013, 11:09:38 --log: lexi: read 1
+May,07th,2013, 11:09:38 --log: gram: token<type:14, address:0x301300>
+May,07th,2013, 11:09:38 --log: gram: check state:39,symbol:14 is 69
+May,07th,2013, 11:09:38 --log: lexi: read ]
+May,07th,2013, 11:09:38 --log: gram: token<type:13, address:0x301310>
+May,07th,2013, 11:09:38 --log: gram: check state:69,symbol:13 is 88
+May,07th,2013, 11:09:38 --log: lexi: read [
+May,07th,2013, 11:09:38 --log: gram: token<type:12, address:0x301320>
+May,07th,2013, 11:09:38 --log: gram: check state:88,symbol:12 is -17
+May,07th,2013, 11:09:38 --log: redu: in reduce 16:type= 54
+May,07th,2013, 11:09:38 --log: gram: check state:69,symbol:54 is 87
+May,07th,2013, 11:09:38 --log: gram: check state:87,symbol:12 is 39
+May,07th,2013, 11:09:38 --log: lexi: read 2
+May,07th,2013, 11:09:38 --log: gram: token<type:14, address:0x301330>
+May,07th,2013, 11:09:38 --log: gram: check state:39,symbol:14 is 69
+May,07th,2013, 11:09:38 --log: lexi: read ]
+May,07th,2013, 11:09:38 --log: gram: token<type:13, address:0x301340>
+May,07th,2013, 11:09:38 --log: gram: check state:69,symbol:13 is 88
+May,07th,2013, 11:09:38 --log: lexi: read ;
+May,07th,2013, 11:09:38 --log: gram: token<type:1, address:0x301350>
+May,07th,2013, 11:09:38 --log: gram: check state:88,symbol:1 is -17
+May,07th,2013, 11:09:38 --log: redu: in reduce 16:type= 54
+May,07th,2013, 11:09:38 --log: gram: check state:69,symbol:54 is 87
+May,07th,2013, 11:09:38 --log: gram: check state:87,symbol:1 is -16
+May,07th,2013, 11:09:38 --log: redu: in reduce 15:type= 44
+May,07th,2013, 11:09:38 --log: gram: check state:87,symbol:44 is 95
+May,07th,2013, 11:09:38 --log: gram: check state:95,symbol:1 is -15
+May,07th,2013, 11:09:38 --log: redu: in reduce 14:type= 44
+May,07th,2013, 11:09:38 --log: gram: check state:87,symbol:44 is 95
+May,07th,2013, 11:09:38 --log: gram: check state:95,symbol:1 is -15
+May,07th,2013, 11:09:38 --log: redu: in reduce 14:type= 44
+May,07th,2013, 11:09:38 --log: gram: check state:17,symbol:44 is 35
+May,07th,2013, 11:09:38 --log: gram: check state:35,symbol:1 is 65
+May,07th,2013, 11:09:38 --log: lexi: begin a new line!
+May,07th,2013, 11:09:38 --log: lexi: read i
+May,07th,2013, 11:09:38 --log: lexi: a blank!
+May,07th,2013, 11:09:38 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:09:38 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:09:38 --log: gram: check state:65,symbol:6 is -4
+May,07th,2013, 11:09:38 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:09:38 --log: gram: check state:35,symbol:45 is 64
+May,07th,2013, 11:09:38 --log: gram: check state:64,symbol:6 is -1
+May,07th,2013, 11:09:38 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:09:38 --log: gram: check state:1,symbol:41 is 3
+May,07th,2013, 11:09:38 --log: gram: check state:3,symbol:6 is -58
+May,07th,2013, 11:09:38 --log: redu: in reduce 57:type= 39
+May,07th,2013, 11:09:38 --log: gram: check state:1,symbol:39 is 1
+May,07th,2013, 11:09:38 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:09:38 --log: lexi: a blank!
+May,07th,2013, 11:09:38 --log: lexi: read m
+May,07th,2013, 11:09:38 --log: gram: token<type:9, address:0x30a540>
+May,07th,2013, 11:09:38 --log: gram: check state:10,symbol:9 is -7
+May,07th,2013, 11:09:38 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:09:38 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:9 is -12
+May,07th,2013, 11:09:38 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:09:38 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:09:38 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:09:38 --log: lexi: read (
+May,07th,2013, 11:09:38 --log: gram: token<type:2, address:0x30a500>
+May,07th,2013, 11:09:38 --log: gram: check state:40,symbol:2 is 0
+May,07th,2013, 11:09:38 --e: error!
+May,07th,2013, 11:12:55 --log: lexi: readed 59 in buffer
+last several words: int **a;
+int e[10][23];
+int main(int argc, char** argv){
+
+}ÿ
+May,07th,2013, 11:12:55 --log: lexical: initial finished
+May,07th,2013, 11:12:55 --log: gram: initGrammar finished
+May,07th,2013, 11:12:55 --log: lexi: read i
+May,07th,2013, 11:12:55 --log: lexi: a blank!
+May,07th,2013, 11:12:55 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:12:55 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:12:55 --log: gram: check state:0,symbol:6 is 10
+May,07th,2013, 11:12:55 --log: lexi: a blank!
+May,07th,2013, 11:12:55 --log: lexi: read *
+May,07th,2013, 11:12:55 --log: gram: token<type:10, address:0x861290>
+May,07th,2013, 11:12:55 --log: gram: check state:10,symbol:10 is -7
+May,07th,2013, 11:12:55 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:12:55 --log: gram: check state:0,symbol:42 is 4
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:10 is 19
+May,07th,2013, 11:12:55 --log: lexi: read *
+May,07th,2013, 11:12:55 --log: gram: token<type:10, address:0x8612a0>
+May,07th,2013, 11:12:55 --log: gram: check state:19,symbol:10 is 19
+May,07th,2013, 11:12:55 --log: lexi: read a
+May,07th,2013, 11:12:55 --log: symT: a realId: a
+May,07th,2013, 11:12:55 --log: gram: token<type:9, address:0x8612b0>
+May,07th,2013, 11:12:55 --log: gram: check state:19,symbol:9 is -12
+May,07th,2013, 11:12:55 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:12:55 --log: gram: check state:19,symbol:52 is 41
+May,07th,2013, 11:12:55 --log: gram: check state:41,symbol:9 is -11
+May,07th,2013, 11:12:55 --log: redu: in reduce 10:type= 52
+May,07th,2013, 11:12:55 --log: gram: check state:19,symbol:52 is 41
+May,07th,2013, 11:12:55 --log: gram: check state:41,symbol:9 is -11
+May,07th,2013, 11:12:55 --log: redu: in reduce 10:type= 52
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:12:55 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:12:55 --log: lexi: read ;
+May,07th,2013, 11:12:55 --log: gram: token<type:1, address:0x8612c0>
+May,07th,2013, 11:12:55 --log: gram: check state:40,symbol:1 is -10
+May,07th,2013, 11:12:55 --log: redu: in reduce 9:type= 43
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:12:55 --log: gram: check state:17,symbol:1 is -16
+May,07th,2013, 11:12:55 --log: redu: in reduce 15:type= 44
+May,07th,2013, 11:12:55 --log: gram: check state:17,symbol:44 is 35
+May,07th,2013, 11:12:55 --log: gram: check state:35,symbol:1 is 65
+May,07th,2013, 11:12:55 --log: lexi: begin a new line!
+May,07th,2013, 11:12:55 --log: lexi: read i
+May,07th,2013, 11:12:55 --log: lexi: a blank!
+May,07th,2013, 11:12:55 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:12:55 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:12:55 --log: gram: check state:65,symbol:6 is -4
+May,07th,2013, 11:12:55 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:12:55 --log: gram: check state:35,symbol:45 is 64
+May,07th,2013, 11:12:55 --log: gram: check state:64,symbol:6 is -1
+May,07th,2013, 11:12:55 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:12:55 --log: gram: check state:0,symbol:41 is 3
+May,07th,2013, 11:12:55 --log: gram: check state:3,symbol:6 is -58
+May,07th,2013, 11:12:55 --log: redu: in reduce 57:type= 39
+May,07th,2013, 11:12:55 --log: gram: check state:0,symbol:39 is 1
+May,07th,2013, 11:12:55 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:12:55 --log: lexi: a blank!
+May,07th,2013, 11:12:55 --log: lexi: read e
+May,07th,2013, 11:12:55 --log: symT: a realId: e
+May,07th,2013, 11:12:55 --log: gram: token<type:9, address:0x8612e0>
+May,07th,2013, 11:12:55 --log: gram: check state:10,symbol:9 is -7
+May,07th,2013, 11:12:55 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:12:55 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:9 is -12
+May,07th,2013, 11:12:55 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:12:55 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:12:55 --log: lexi: read [
+May,07th,2013, 11:12:55 --log: gram: token<type:12, address:0x8612f0>
+May,07th,2013, 11:12:55 --log: gram: check state:40,symbol:12 is -10
+May,07th,2013, 11:12:55 --log: redu: in reduce 9:type= 43
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:12:55 --log: gram: check state:17,symbol:12 is 39
+May,07th,2013, 11:12:55 --log: lexi: read 1
+May,07th,2013, 11:12:55 --log: gram: token<type:14, address:0x861300>
+May,07th,2013, 11:12:55 --log: gram: check state:39,symbol:14 is 69
+May,07th,2013, 11:12:55 --log: lexi: read ]
+May,07th,2013, 11:12:55 --log: gram: token<type:13, address:0x861310>
+May,07th,2013, 11:12:55 --log: gram: check state:69,symbol:13 is 88
+May,07th,2013, 11:12:55 --log: lexi: read [
+May,07th,2013, 11:12:55 --log: gram: token<type:12, address:0x861320>
+May,07th,2013, 11:12:55 --log: gram: check state:88,symbol:12 is -17
+May,07th,2013, 11:12:55 --log: redu: in reduce 16:type= 54
+May,07th,2013, 11:12:55 --log: gram: check state:69,symbol:54 is 87
+May,07th,2013, 11:12:55 --log: gram: check state:87,symbol:12 is 39
+May,07th,2013, 11:12:55 --log: lexi: read 2
+May,07th,2013, 11:12:55 --log: gram: token<type:14, address:0x861330>
+May,07th,2013, 11:12:55 --log: gram: check state:39,symbol:14 is 69
+May,07th,2013, 11:12:55 --log: lexi: read ]
+May,07th,2013, 11:12:55 --log: gram: token<type:13, address:0x861340>
+May,07th,2013, 11:12:55 --log: gram: check state:69,symbol:13 is 88
+May,07th,2013, 11:12:55 --log: lexi: read ;
+May,07th,2013, 11:12:55 --log: gram: token<type:1, address:0x861350>
+May,07th,2013, 11:12:55 --log: gram: check state:88,symbol:1 is -17
+May,07th,2013, 11:12:55 --log: redu: in reduce 16:type= 54
+May,07th,2013, 11:12:55 --log: gram: check state:69,symbol:54 is 87
+May,07th,2013, 11:12:55 --log: gram: check state:87,symbol:1 is -16
+May,07th,2013, 11:12:55 --log: redu: in reduce 15:type= 44
+May,07th,2013, 11:12:55 --log: gram: check state:87,symbol:44 is 95
+May,07th,2013, 11:12:55 --log: gram: check state:95,symbol:1 is -15
+May,07th,2013, 11:12:55 --log: redu: in reduce 14:type= 44
+May,07th,2013, 11:12:55 --log: gram: check state:87,symbol:44 is 95
+May,07th,2013, 11:12:55 --log: gram: check state:95,symbol:1 is -15
+May,07th,2013, 11:12:55 --log: redu: in reduce 14:type= 44
+May,07th,2013, 11:12:55 --log: gram: check state:17,symbol:44 is 35
+May,07th,2013, 11:12:55 --log: gram: check state:35,symbol:1 is 65
+May,07th,2013, 11:12:55 --log: lexi: begin a new line!
+May,07th,2013, 11:12:55 --log: lexi: read i
+May,07th,2013, 11:12:55 --log: lexi: a blank!
+May,07th,2013, 11:12:55 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:12:55 --log: gram: token<type:6, address:0x40c3b0>
+May,07th,2013, 11:12:55 --log: gram: check state:65,symbol:6 is -4
+May,07th,2013, 11:12:55 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:12:55 --log: gram: check state:35,symbol:45 is 64
+May,07th,2013, 11:12:55 --log: gram: check state:64,symbol:6 is -1
+May,07th,2013, 11:12:55 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:12:55 --log: gram: check state:1,symbol:41 is 3
+May,07th,2013, 11:12:55 --log: gram: check state:3,symbol:6 is -58
+May,07th,2013, 11:12:55 --log: redu: in reduce 57:type= 39
+May,07th,2013, 11:12:55 --log: gram: check state:1,symbol:39 is 1
+May,07th,2013, 11:12:55 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:12:55 --log: lexi: a blank!
+May,07th,2013, 11:12:55 --log: lexi: read m
+May,07th,2013, 11:12:55 --log: symT: a realId: main
+May,07th,2013, 11:12:55 --log: gram: token<type:9, address:0x86a4b0>
+May,07th,2013, 11:12:55 --log: gram: check state:10,symbol:9 is -7
+May,07th,2013, 11:12:55 --log: redu: in reduce 6:type= 42
+May,07th,2013, 11:12:55 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:9 is -12
+May,07th,2013, 11:12:55 --log: redu: in reduce 11:type= 52
+May,07th,2013, 11:12:55 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:12:55 --log: gram: check state:18,symbol:9 is 40
+May,07th,2013, 11:12:55 --log: lexi: read (
+May,07th,2013, 11:12:55 --log: gram: token<type:2, address:0x86a480>
+May,07th,2013, 11:12:55 --log: gram: check state:40,symbol:2 is 0
+May,07th,2013, 11:12:55 --e: error!
+May,07th,2013, 11:42:51 --log: lexi: readed 59 in buffer
+last several words: int **a;
+int e[10][23];
+int main(int argc, char** argv){
+
+}ÿ
+May,07th,2013, 11:42:51 --log: lexical: initial finished
+May,07th,2013, 11:42:51 --log: gram: initGrammar finished
+May,07th,2013, 11:42:51 --log: lexi: read i
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:42:51 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 11:42:51 --log: gram: check state:0,symbol:6 is 10
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: lexi: read *
+May,07th,2013, 11:42:51 --log: gram: token<type:10, address:0x781290>
+May,07th,2013, 11:42:51 --log: gram: check state:10,symbol:10 is -9
+May,07th,2013, 11:42:51 --log: redu: in reduce 8:type= 42
+May,07th,2013, 11:42:51 --log: gram: check state:0,symbol:42 is 4
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:10 is 19
+May,07th,2013, 11:42:51 --log: lexi: read *
+May,07th,2013, 11:42:51 --log: gram: token<type:10, address:0x7812a0>
+May,07th,2013, 11:42:51 --log: gram: check state:19,symbol:10 is 19
+May,07th,2013, 11:42:51 --log: lexi: read a
+May,07th,2013, 11:42:51 --log: symT: a realId: a
+May,07th,2013, 11:42:51 --log: gram: token<type:9, address:0x7812b0>
+May,07th,2013, 11:42:51 --log: gram: check state:19,symbol:9 is -14
+May,07th,2013, 11:42:51 --log: redu: in reduce 13:type= 52
+May,07th,2013, 11:42:51 --log: gram: check state:19,symbol:52 is 43
+May,07th,2013, 11:42:51 --log: gram: check state:43,symbol:9 is -13
+May,07th,2013, 11:42:51 --log: redu: in reduce 12:type= 52
+May,07th,2013, 11:42:51 --log: gram: check state:19,symbol:52 is 43
+May,07th,2013, 11:42:51 --log: gram: check state:43,symbol:9 is -13
+May,07th,2013, 11:42:51 --log: redu: in reduce 12:type= 52
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:42:51 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 11:42:51 --log: lexi: read ;
+May,07th,2013, 11:42:51 --log: gram: token<type:1, address:0x7812c0>
+May,07th,2013, 11:42:51 --log: gram: check state:42,symbol:1 is -12
+May,07th,2013, 11:42:51 --log: redu: in reduce 11:type= 43
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:42:51 --log: gram: check state:17,symbol:1 is -18
+May,07th,2013, 11:42:51 --log: redu: in reduce 17:type= 44
+May,07th,2013, 11:42:51 --log: gram: check state:17,symbol:44 is 36
+May,07th,2013, 11:42:51 --log: gram: check state:36,symbol:1 is 67
+May,07th,2013, 11:42:51 --log: lexi: begin a new line!
+May,07th,2013, 11:42:51 --log: lexi: read i
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:42:51 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 11:42:51 --log: gram: check state:67,symbol:6 is -4
+May,07th,2013, 11:42:51 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:42:51 --log: gram: check state:36,symbol:45 is 66
+May,07th,2013, 11:42:51 --log: gram: check state:66,symbol:6 is -1
+May,07th,2013, 11:42:51 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:42:51 --log: gram: check state:0,symbol:41 is 3
+May,07th,2013, 11:42:51 --log: gram: check state:3,symbol:6 is -61
+May,07th,2013, 11:42:51 --log: redu: in reduce 60:type= 39
+May,07th,2013, 11:42:51 --log: gram: check state:0,symbol:39 is 1
+May,07th,2013, 11:42:51 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: lexi: read e
+May,07th,2013, 11:42:51 --log: symT: a realId: e
+May,07th,2013, 11:42:51 --log: gram: token<type:9, address:0x7812e0>
+May,07th,2013, 11:42:51 --log: gram: check state:10,symbol:9 is -9
+May,07th,2013, 11:42:51 --log: redu: in reduce 8:type= 42
+May,07th,2013, 11:42:51 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:9 is -14
+May,07th,2013, 11:42:51 --log: redu: in reduce 13:type= 52
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:42:51 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 11:42:51 --log: lexi: read [
+May,07th,2013, 11:42:51 --log: gram: token<type:12, address:0x7812f0>
+May,07th,2013, 11:42:51 --log: gram: check state:42,symbol:12 is -12
+May,07th,2013, 11:42:51 --log: redu: in reduce 11:type= 43
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:42:51 --log: gram: check state:17,symbol:12 is 41
+May,07th,2013, 11:42:51 --log: lexi: read 1
+May,07th,2013, 11:42:51 --log: gram: token<type:14, address:0x781300>
+May,07th,2013, 11:42:51 --log: gram: check state:41,symbol:14 is 73
+May,07th,2013, 11:42:51 --log: lexi: read ]
+May,07th,2013, 11:42:51 --log: gram: token<type:13, address:0x781310>
+May,07th,2013, 11:42:51 --log: gram: check state:73,symbol:13 is 94
+May,07th,2013, 11:42:51 --log: lexi: read [
+May,07th,2013, 11:42:51 --log: gram: token<type:12, address:0x781320>
+May,07th,2013, 11:42:51 --log: gram: check state:94,symbol:12 is -19
+May,07th,2013, 11:42:51 --log: redu: in reduce 18:type= 54
+May,07th,2013, 11:42:51 --log: gram: check state:73,symbol:54 is 93
+May,07th,2013, 11:42:51 --log: gram: check state:93,symbol:12 is 41
+May,07th,2013, 11:42:51 --log: lexi: read 2
+May,07th,2013, 11:42:51 --log: gram: token<type:14, address:0x781330>
+May,07th,2013, 11:42:51 --log: gram: check state:41,symbol:14 is 73
+May,07th,2013, 11:42:51 --log: lexi: read ]
+May,07th,2013, 11:42:51 --log: gram: token<type:13, address:0x781340>
+May,07th,2013, 11:42:51 --log: gram: check state:73,symbol:13 is 94
+May,07th,2013, 11:42:51 --log: lexi: read ;
+May,07th,2013, 11:42:51 --log: gram: token<type:1, address:0x781350>
+May,07th,2013, 11:42:51 --log: gram: check state:94,symbol:1 is -19
+May,07th,2013, 11:42:51 --log: redu: in reduce 18:type= 54
+May,07th,2013, 11:42:51 --log: gram: check state:73,symbol:54 is 93
+May,07th,2013, 11:42:51 --log: gram: check state:93,symbol:1 is -18
+May,07th,2013, 11:42:51 --log: redu: in reduce 17:type= 44
+May,07th,2013, 11:42:51 --log: gram: check state:93,symbol:44 is 103
+May,07th,2013, 11:42:51 --log: gram: check state:103,symbol:1 is -17
+May,07th,2013, 11:42:51 --log: redu: in reduce 16:type= 44
+May,07th,2013, 11:42:51 --log: gram: check state:93,symbol:44 is 103
+May,07th,2013, 11:42:51 --log: gram: check state:103,symbol:1 is -17
+May,07th,2013, 11:42:51 --log: redu: in reduce 16:type= 44
+May,07th,2013, 11:42:51 --log: gram: check state:17,symbol:44 is 36
+May,07th,2013, 11:42:51 --log: gram: check state:36,symbol:1 is 67
+May,07th,2013, 11:42:51 --log: lexi: begin a new line!
+May,07th,2013, 11:42:51 --log: lexi: read i
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:42:51 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 11:42:51 --log: gram: check state:67,symbol:6 is -4
+May,07th,2013, 11:42:51 --log: redu: in reduce 3:type= 45
+May,07th,2013, 11:42:51 --log: gram: check state:36,symbol:45 is 66
+May,07th,2013, 11:42:51 --log: gram: check state:66,symbol:6 is -1
+May,07th,2013, 11:42:51 --log: redu: in reduce 0:type= 41
+May,07th,2013, 11:42:51 --log: gram: check state:1,symbol:41 is 3
+May,07th,2013, 11:42:51 --log: gram: check state:3,symbol:6 is -61
+May,07th,2013, 11:42:51 --log: redu: in reduce 60:type= 39
+May,07th,2013, 11:42:51 --log: gram: check state:1,symbol:39 is 1
+May,07th,2013, 11:42:51 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: lexi: read m
+May,07th,2013, 11:42:51 --log: symT: a realId: main
+May,07th,2013, 11:42:51 --log: gram: token<type:9, address:0x78a590>
+May,07th,2013, 11:42:51 --log: gram: check state:10,symbol:9 is -9
+May,07th,2013, 11:42:51 --log: redu: in reduce 8:type= 42
+May,07th,2013, 11:42:51 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:9 is -14
+May,07th,2013, 11:42:51 --log: redu: in reduce 13:type= 52
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 11:42:51 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 11:42:51 --log: lexi: read (
+May,07th,2013, 11:42:51 --log: gram: token<type:2, address:0x78a530>
+May,07th,2013, 11:42:51 --log: gram: check state:42,symbol:2 is -12
+May,07th,2013, 11:42:51 --log: redu: in reduce 11:type= 43
+May,07th,2013, 11:42:51 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 11:42:51 --log: gram: check state:17,symbol:2 is 39
+May,07th,2013, 11:42:51 --log: lexi: read i
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 11:42:51 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 11:42:51 --log: gram: check state:39,symbol:6 is -5
+May,07th,2013, 11:42:51 --log: redu: in reduce 4:type= 46
+May,07th,2013, 11:42:51 --log: gram: check state:17,symbol:46 is 37
+May,07th,2013, 11:42:51 --log: gram: check state:37,symbol:6 is -22
+May,07th,2013, 11:42:51 --log: redu: in reduce 21:type= 55
+May,07th,2013, 11:42:51 --log: gram: check state:37,symbol:55 is 70
+May,07th,2013, 11:42:51 --log: gram: check state:70,symbol:6 is 10
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: lexi: read a
+May,07th,2013, 11:42:51 --log: symT: a realId: argc
+May,07th,2013, 11:42:51 --log: gram: token<type:9, address:0x78a5b0>
+May,07th,2013, 11:42:51 --log: gram: check state:10,symbol:9 is -9
+May,07th,2013, 11:42:51 --log: redu: in reduce 8:type= 42
+May,07th,2013, 11:42:51 --log: gram: check state:70,symbol:42 is 91
+May,07th,2013, 11:42:51 --log: gram: check state:91,symbol:9 is -14
+May,07th,2013, 11:42:51 --log: redu: in reduce 13:type= 52
+May,07th,2013, 11:42:51 --log: gram: check state:91,symbol:52 is 18
+May,07th,2013, 11:42:51 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 11:42:51 --log: lexi: read ,
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --e: I read a ,
+May,07th,2013, 11:42:51 --e: gram: lexical error!
+May,07th,2013, 11:42:51 --log: lexi: a blank!
+May,07th,2013, 11:42:51 --log: lexi: read c
+May,07th,2013, 11:42:51 --log: symT: find char in keyWordTable[1]!type 7
+May,07th,2013, 11:42:51 --log: gram: token<type:7, address:0x40d3b4>
+May,07th,2013, 11:42:51 --log: gram: check state:42,symbol:7 is 0
+May,07th,2013, 11:42:51 --e: error!
+May,07th,2013, 12:35:12 --log: lexi: readed 59 in buffer
+last several words: int **a;
+int e[10][23];
+int main(int argc, char** argv){
+
+}ÿ
+May,07th,2013, 12:35:12 --log: lexical: initial finished
+May,07th,2013, 12:35:12 --log: gram: initGrammar finished
+May,07th,2013, 12:35:12 --log: lexi: read i
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 12:35:12 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 12:35:12 --log: gram: check state:0,symbol:6 is 10
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: lexi: read *
+May,07th,2013, 12:35:12 --log: gram: token<type:10, address:0x3e1290>
+May,07th,2013, 12:35:12 --log: gram: check state:10,symbol:10 is -9
+May,07th,2013, 12:35:12 --log: redu: in reduce 8:type= 42
+May,07th,2013, 12:35:12 --log: gram: check state:0,symbol:42 is 4
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:10 is 19
+May,07th,2013, 12:35:12 --log: lexi: read *
+May,07th,2013, 12:35:12 --log: gram: token<type:10, address:0x3e12a0>
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:10 is 19
+May,07th,2013, 12:35:12 --log: lexi: read a
+May,07th,2013, 12:35:12 --log: symT: a realId: a
+May,07th,2013, 12:35:12 --log: gram: token<type:9, address:0x3e12b0>
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:9 is -14
+May,07th,2013, 12:35:12 --log: redu: in reduce 13:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:52 is 43
+May,07th,2013, 12:35:12 --log: gram: check state:43,symbol:9 is -13
+May,07th,2013, 12:35:12 --log: redu: in reduce 12:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:52 is 43
+May,07th,2013, 12:35:12 --log: gram: check state:43,symbol:9 is -13
+May,07th,2013, 12:35:12 --log: redu: in reduce 12:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 12:35:12 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 12:35:12 --log: lexi: read ;
+May,07th,2013, 12:35:12 --log: gram: token<type:1, address:0x3e12c0>
+May,07th,2013, 12:35:12 --log: gram: check state:42,symbol:1 is -12
+May,07th,2013, 12:35:12 --log: redu: in reduce 11:type= 43
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 12:35:12 --log: gram: check state:17,symbol:1 is -18
+May,07th,2013, 12:35:12 --log: redu: in reduce 17:type= 44
+May,07th,2013, 12:35:12 --log: gram: check state:17,symbol:44 is 36
+May,07th,2013, 12:35:12 --log: gram: check state:36,symbol:1 is 67
+May,07th,2013, 12:35:12 --log: lexi: begin a new line!
+May,07th,2013, 12:35:12 --log: lexi: read i
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 12:35:12 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 12:35:12 --log: gram: check state:67,symbol:6 is -4
+May,07th,2013, 12:35:12 --log: redu: in reduce 3:type= 45
+May,07th,2013, 12:35:12 --log: gram: check state:36,symbol:45 is 66
+May,07th,2013, 12:35:12 --log: gram: check state:66,symbol:6 is -1
+May,07th,2013, 12:35:12 --log: redu: in reduce 0:type= 41
+May,07th,2013, 12:35:12 --log: gram: check state:0,symbol:41 is 3
+May,07th,2013, 12:35:12 --log: gram: check state:3,symbol:6 is -61
+May,07th,2013, 12:35:12 --log: redu: in reduce 60:type= 39
+May,07th,2013, 12:35:12 --log: gram: check state:0,symbol:39 is 1
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: lexi: read e
+May,07th,2013, 12:35:12 --log: symT: a realId: e
+May,07th,2013, 12:35:12 --log: gram: token<type:9, address:0x3e12e0>
+May,07th,2013, 12:35:12 --log: gram: check state:10,symbol:9 is -9
+May,07th,2013, 12:35:12 --log: redu: in reduce 8:type= 42
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:9 is -14
+May,07th,2013, 12:35:12 --log: redu: in reduce 13:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 12:35:12 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 12:35:12 --log: lexi: read [
+May,07th,2013, 12:35:12 --log: gram: token<type:12, address:0x3e12f0>
+May,07th,2013, 12:35:12 --log: gram: check state:42,symbol:12 is -12
+May,07th,2013, 12:35:12 --log: redu: in reduce 11:type= 43
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 12:35:12 --log: gram: check state:17,symbol:12 is 41
+May,07th,2013, 12:35:12 --log: lexi: read 1
+May,07th,2013, 12:35:12 --log: gram: token<type:14, address:0x3e1300>
+May,07th,2013, 12:35:12 --log: gram: check state:41,symbol:14 is 73
+May,07th,2013, 12:35:12 --log: lexi: read ]
+May,07th,2013, 12:35:12 --log: gram: token<type:13, address:0x3e1310>
+May,07th,2013, 12:35:12 --log: gram: check state:73,symbol:13 is 94
+May,07th,2013, 12:35:12 --log: lexi: read [
+May,07th,2013, 12:35:12 --log: gram: token<type:12, address:0x3e1320>
+May,07th,2013, 12:35:12 --log: gram: check state:94,symbol:12 is -19
+May,07th,2013, 12:35:12 --log: redu: in reduce 18:type= 54
+May,07th,2013, 12:35:12 --log: gram: check state:73,symbol:54 is 93
+May,07th,2013, 12:35:12 --log: gram: check state:93,symbol:12 is 41
+May,07th,2013, 12:35:12 --log: lexi: read 2
+May,07th,2013, 12:35:12 --log: gram: token<type:14, address:0x3e1330>
+May,07th,2013, 12:35:12 --log: gram: check state:41,symbol:14 is 73
+May,07th,2013, 12:35:12 --log: lexi: read ]
+May,07th,2013, 12:35:12 --log: gram: token<type:13, address:0x3e1340>
+May,07th,2013, 12:35:12 --log: gram: check state:73,symbol:13 is 94
+May,07th,2013, 12:35:12 --log: lexi: read ;
+May,07th,2013, 12:35:12 --log: gram: token<type:1, address:0x3e1350>
+May,07th,2013, 12:35:12 --log: gram: check state:94,symbol:1 is -19
+May,07th,2013, 12:35:12 --log: redu: in reduce 18:type= 54
+May,07th,2013, 12:35:12 --log: gram: check state:73,symbol:54 is 93
+May,07th,2013, 12:35:12 --log: gram: check state:93,symbol:1 is -18
+May,07th,2013, 12:35:12 --log: redu: in reduce 17:type= 44
+May,07th,2013, 12:35:12 --log: gram: check state:93,symbol:44 is 103
+May,07th,2013, 12:35:12 --log: gram: check state:103,symbol:1 is -17
+May,07th,2013, 12:35:12 --log: redu: in reduce 16:type= 44
+May,07th,2013, 12:35:12 --log: gram: check state:93,symbol:44 is 103
+May,07th,2013, 12:35:12 --log: gram: check state:103,symbol:1 is -17
+May,07th,2013, 12:35:12 --log: redu: in reduce 16:type= 44
+May,07th,2013, 12:35:12 --log: gram: check state:17,symbol:44 is 36
+May,07th,2013, 12:35:12 --log: gram: check state:36,symbol:1 is 67
+May,07th,2013, 12:35:12 --log: lexi: begin a new line!
+May,07th,2013, 12:35:12 --log: lexi: read i
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 12:35:12 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 12:35:12 --log: gram: check state:67,symbol:6 is -4
+May,07th,2013, 12:35:12 --log: redu: in reduce 3:type= 45
+May,07th,2013, 12:35:12 --log: gram: check state:36,symbol:45 is 66
+May,07th,2013, 12:35:12 --log: gram: check state:66,symbol:6 is -1
+May,07th,2013, 12:35:12 --log: redu: in reduce 0:type= 41
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:41 is 3
+May,07th,2013, 12:35:12 --log: gram: check state:3,symbol:6 is -61
+May,07th,2013, 12:35:12 --log: redu: in reduce 60:type= 39
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:39 is 1
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:6 is 10
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: lexi: read m
+May,07th,2013, 12:35:12 --log: symT: a realId: main
+May,07th,2013, 12:35:12 --log: gram: token<type:9, address:0x3ea450>
+May,07th,2013, 12:35:12 --log: gram: check state:10,symbol:9 is -9
+May,07th,2013, 12:35:12 --log: redu: in reduce 8:type= 42
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:42 is 4
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:9 is -14
+May,07th,2013, 12:35:12 --log: redu: in reduce 13:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:52 is 18
+May,07th,2013, 12:35:12 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 12:35:12 --log: lexi: read (
+May,07th,2013, 12:35:12 --log: gram: token<type:2, address:0x3ea4f0>
+May,07th,2013, 12:35:12 --log: gram: check state:42,symbol:2 is -12
+May,07th,2013, 12:35:12 --log: redu: in reduce 11:type= 43
+May,07th,2013, 12:35:12 --log: gram: check state:4,symbol:43 is 17
+May,07th,2013, 12:35:12 --log: gram: check state:17,symbol:2 is 39
+May,07th,2013, 12:35:12 --log: lexi: read i
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: symT: find int in keyWordTable[0]!type 6
+May,07th,2013, 12:35:12 --log: gram: token<type:6, address:0x40d3b0>
+May,07th,2013, 12:35:12 --log: gram: check state:39,symbol:6 is -5
+May,07th,2013, 12:35:12 --log: redu: in reduce 4:type= 46
+May,07th,2013, 12:35:12 --log: gram: check state:17,symbol:46 is 37
+May,07th,2013, 12:35:12 --log: gram: check state:37,symbol:6 is -22
+May,07th,2013, 12:35:12 --log: redu: in reduce 21:type= 55
+May,07th,2013, 12:35:12 --log: gram: check state:37,symbol:55 is 70
+May,07th,2013, 12:35:12 --log: gram: check state:70,symbol:6 is 10
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: lexi: read a
+May,07th,2013, 12:35:12 --log: symT: a realId: argc
+May,07th,2013, 12:35:12 --log: gram: token<type:9, address:0x3ea490>
+May,07th,2013, 12:35:12 --log: gram: check state:10,symbol:9 is -9
+May,07th,2013, 12:35:12 --log: redu: in reduce 8:type= 42
+May,07th,2013, 12:35:12 --log: gram: check state:70,symbol:42 is 91
+May,07th,2013, 12:35:12 --log: gram: check state:91,symbol:9 is -14
+May,07th,2013, 12:35:12 --log: redu: in reduce 13:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:91,symbol:52 is 18
+May,07th,2013, 12:35:12 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 12:35:12 --log: lexi: read ,
+May,07th,2013, 12:35:12 --log: gram: token<type:11, address:0x3ea4e0>
+May,07th,2013, 12:35:12 --log: gram: check state:42,symbol:11 is -12
+May,07th,2013, 12:35:12 --log: redu: in reduce 11:type= 43
+May,07th,2013, 12:35:12 --log: gram: check state:91,symbol:43 is 102
+May,07th,2013, 12:35:12 --log: gram: check state:102,symbol:11 is -20
+May,07th,2013, 12:35:12 --log: redu: in reduce 19:type= 51
+May,07th,2013, 12:35:12 --log: gram: check state:37,symbol:51 is 69
+May,07th,2013, 12:35:12 --log: gram: check state:69,symbol:11 is 90
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: lexi: read c
+May,07th,2013, 12:35:12 --log: symT: find char in keyWordTable[1]!type 7
+May,07th,2013, 12:35:12 --log: gram: token<type:7, address:0x40d3b4>
+May,07th,2013, 12:35:12 --log: gram: check state:90,symbol:7 is -23
+May,07th,2013, 12:35:12 --log: redu: in reduce 22:type= 56
+May,07th,2013, 12:35:12 --log: gram: check state:69,symbol:56 is 89
+May,07th,2013, 12:35:12 --log: gram: check state:89,symbol:7 is 11
+May,07th,2013, 12:35:12 --log: lexi: read *
+May,07th,2013, 12:35:12 --log: gram: token<type:10, address:0x3ea440>
+May,07th,2013, 12:35:12 --log: gram: check state:11,symbol:10 is -10
+May,07th,2013, 12:35:12 --log: redu: in reduce 9:type= 42
+May,07th,2013, 12:35:12 --log: gram: check state:89,symbol:42 is 101
+May,07th,2013, 12:35:12 --log: gram: check state:101,symbol:10 is 19
+May,07th,2013, 12:35:12 --log: lexi: read *
+May,07th,2013, 12:35:12 --log: gram: token<type:10, address:0x3ea540>
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:10 is 19
+May,07th,2013, 12:35:12 --log: lexi: a blank!
+May,07th,2013, 12:35:12 --log: lexi: read a
+May,07th,2013, 12:35:12 --log: symT: a realId: argv
+May,07th,2013, 12:35:12 --log: gram: token<type:9, address:0x3ea510>
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:9 is -14
+May,07th,2013, 12:35:12 --log: redu: in reduce 13:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:52 is 43
+May,07th,2013, 12:35:12 --log: gram: check state:43,symbol:9 is -13
+May,07th,2013, 12:35:12 --log: redu: in reduce 12:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:19,symbol:52 is 43
+May,07th,2013, 12:35:12 --log: gram: check state:43,symbol:9 is -13
+May,07th,2013, 12:35:12 --log: redu: in reduce 12:type= 52
+May,07th,2013, 12:35:12 --log: gram: check state:101,symbol:52 is 18
+May,07th,2013, 12:35:12 --log: gram: check state:18,symbol:9 is 42
+May,07th,2013, 12:35:12 --log: lexi: read )
+May,07th,2013, 12:35:12 --log: gram: token<type:3, address:0x3ea460>
+May,07th,2013, 12:35:12 --log: gram: check state:42,symbol:3 is -12
+May,07th,2013, 12:35:12 --log: redu: in reduce 11:type= 43
+May,07th,2013, 12:35:12 --log: gram: check state:101,symbol:43 is 109
+May,07th,2013, 12:35:12 --log: gram: check state:109,symbol:3 is -21
+May,07th,2013, 12:35:12 --log: redu: in reduce 20:type= 51
+May,07th,2013, 12:35:12 --log: gram: check state:37,symbol:51 is 69
+May,07th,2013, 12:35:12 --log: gram: check state:69,symbol:3 is 71
+May,07th,2013, 12:35:12 --log: lexi: read {
+May,07th,2013, 12:35:12 --log: gram: token<type:4, address:0x3ea4a0>
+May,07th,2013, 12:35:12 --log: gram: check state:71,symbol:4 is -6
+May,07th,2013, 12:35:12 --log: redu: in reduce 5:type= 47
+May,07th,2013, 12:35:12 --log: gram: check state:69,symbol:47 is 88
+May,07th,2013, 12:35:12 --log: gram: check state:88,symbol:4 is -7
+May,07th,2013, 12:35:12 --log: redu: in reduce 6:type= 48
+May,07th,2013, 12:35:12 --log: gram: check state:88,symbol:48 is 100
+May,07th,2013, 12:35:12 --log: gram: check state:100,symbol:4 is 9
+May,07th,2013, 12:35:12 --log: lexi: begin a new line!
+May,07th,2013, 12:35:12 --log: lexi: begin a new line!
+May,07th,2013, 12:35:12 --log: lexi: read }
+May,07th,2013, 12:35:12 --log: gram: token<type:5, address:0x3ea5c0>
+May,07th,2013, 12:35:12 --log: gram: check state:9,symbol:5 is -65
+May,07th,2013, 12:35:12 --log: redu: in reduce 64:type= 40
+May,07th,2013, 12:35:12 --log: gram: check state:9,symbol:40 is 21
+May,07th,2013, 12:35:12 --log: gram: check state:21,symbol:5 is 46
+May,07th,2013, 12:35:12 --log: lexi: read ÿ
+May,07th,2013, 12:35:12 --log: gram: End
+May,07th,2013, 12:35:12 --log: gram: check state:46,symbol:38 is -67
+May,07th,2013, 12:35:12 --log: redu: in reduce 66:type= 49
+May,07th,2013, 12:35:12 --log: gram: check state:100,symbol:49 is 108
+May,07th,2013, 12:35:12 --log: gram: check state:108,symbol:38 is -8
+May,07th,2013, 12:35:12 --log: redu: in reduce 7:type= 50
+May,07th,2013, 12:35:12 --log: gram: check state:108,symbol:50 is 111
+May,07th,2013, 12:35:12 --log: gram: check state:111,symbol:38 is -3
+May,07th,2013, 12:35:12 --log: redu: in reduce 2:type= 41
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:41 is 3
+May,07th,2013, 12:35:12 --log: gram: check state:3,symbol:38 is -61
+May,07th,2013, 12:35:12 --log: redu: in reduce 60:type= 39
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:39 is 1
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:38 is -65
+May,07th,2013, 12:35:12 --log: redu: in reduce 64:type= 40
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:40 is 16
+May,07th,2013, 12:35:12 --log: gram: check state:16,symbol:38 is -64
+May,07th,2013, 12:35:12 --log: redu: in reduce 63:type= 40
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:40 is 16
+May,07th,2013, 12:35:12 --log: gram: check state:16,symbol:38 is -64
+May,07th,2013, 12:35:12 --log: redu: in reduce 63:type= 40
+May,07th,2013, 12:35:12 --log: gram: check state:1,symbol:40 is 16
+May,07th,2013, 12:35:12 --log: gram: check state:16,symbol:38 is -64
+May,07th,2013, 12:35:12 --log: redu: in reduce 63:type= 40
+May,07th,2013, 12:35:12 --log: gram: check state:0,symbol:40 is 2
+May,07th,2013, 12:35:12 --log: gram: check state:2,symbol:38 is -999
+May,07th,2013, 12:35:12 --log: gram: ACCEPT!
